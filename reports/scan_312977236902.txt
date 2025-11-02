@@ -1,0 +1,1127 @@
+
+====================================
+Running check: checks/cloudtrail-enabled.sh
+Category: Cloudtrail
+====================================
+[CloudTrail] Checking if CloudTrail is enabled in this region...
+❌ No CloudTrails found in this region
+
+
+====================================
+Running check: checks/cloudtrail-log-encryption.sh
+Category: Cloudtrail
+====================================
+[CloudTrail] Checking if logs are encrypted with KMS...
+ℹ️  No CloudTrails found
+
+
+====================================
+Running check: checks/ec2-port22-open.sh
+Category: EC2
+====================================
+[EC2] Checking for Security Groups with port 22 open...
+✅ sg-df4120ba does NOT expose port 22 publicly
+✅ sg-e5fff1af does NOT expose port 22 publicly
+✅ sg-b8a2fdcb does NOT expose port 22 publicly
+✅ sg-a91dffcd does NOT expose port 22 publicly
+✅ sg-0e2edb30ec27f4ac1 does NOT expose port 22 publicly
+✅ sg-3a1ee440 does NOT expose port 22 publicly
+✅ sg-04e6af1fede2de657 does NOT expose port 22 publicly
+✅ sg-b3d6e3ca does NOT expose port 22 publicly
+✅ sg-3fd53547 does NOT expose port 22 publicly
+✅ sg-2531b45f does NOT expose port 22 publicly
+✅ sg-0146d88650803b830 does NOT expose port 22 publicly
+✅ sg-90d232e8 does NOT expose port 22 publicly
+✅ sg-3a176441 does NOT expose port 22 publicly
+✅ sg-2943144c does NOT expose port 22 publicly
+✅ sg-060b37d7b4eca493c does NOT expose port 22 publicly
+✅ sg-9a2be9fe does NOT expose port 22 publicly
+✅ sg-c5b443b2 does NOT expose port 22 publicly
+✅ sg-088ed16effb036675 does NOT expose port 22 publicly
+✅ sg-f1063189 does NOT expose port 22 publicly
+✅ sg-7d573118 does NOT expose port 22 publicly
+✅ sg-515c4921 does NOT expose port 22 publicly
+✅ sg-8a7a8bee does NOT expose port 22 publicly
+✅ sg-064bd7d5442553d89 does NOT expose port 22 publicly
+✅ sg-75256511 does NOT expose port 22 publicly
+✅ sg-623c8319 does NOT expose port 22 publicly
+✅ sg-c91214b1 does NOT expose port 22 publicly
+✅ sg-ad7685ca does NOT expose port 22 publicly
+✅ sg-d117f1ad does NOT expose port 22 publicly
+✅ sg-22e6135a does NOT expose port 22 publicly
+✅ sg-4486d63a does NOT expose port 22 publicly
+✅ sg-869712e2 does NOT expose port 22 publicly
+✅ sg-64122e1f does NOT expose port 22 publicly
+✅ sg-dfb587a6 does NOT expose port 22 publicly
+✅ sg-552e4f30 does NOT expose port 22 publicly
+✅ sg-d5fa79a8 does NOT expose port 22 publicly
+✅ sg-009d473fb44c643c1 does NOT expose port 22 publicly
+✅ sg-befc37c6 does NOT expose port 22 publicly
+✅ sg-016c1ce91e11c0644 does NOT expose port 22 publicly
+✅ sg-ab1b2ad2 does NOT expose port 22 publicly
+✅ sg-9ec42fe7 does NOT expose port 22 publicly
+✅ sg-d26796b6 does NOT expose port 22 publicly
+✅ sg-f1eef388 does NOT expose port 22 publicly
+✅ sg-09d2d874 does NOT expose port 22 publicly
+✅ sg-c5cd9abd does NOT expose port 22 publicly
+✅ sg-17e7126f does NOT expose port 22 publicly
+✅ sg-083f95b7088bd4d68 does NOT expose port 22 publicly
+✅ sg-0b430a9d94bd7c8a9 does NOT expose port 22 publicly
+✅ sg-3b9b064c does NOT expose port 22 publicly
+✅ sg-eeeff297 does NOT expose port 22 publicly
+✅ sg-2345115c does NOT expose port 22 publicly
+✅ sg-7d432218 does NOT expose port 22 publicly
+✅ sg-db9470a4 does NOT expose port 22 publicly
+✅ sg-20cd3657 does NOT expose port 22 publicly
+✅ sg-050589ae3d5aca1b0 does NOT expose port 22 publicly
+✅ sg-09a3361df6ac2d35f does NOT expose port 22 publicly
+✅ sg-b738e5d3 does NOT expose port 22 publicly
+✅ sg-057485cd6b4f41a7c does NOT expose port 22 publicly
+✅ sg-a08686d9 does NOT expose port 22 publicly
+✅ sg-0fde8a3b35475153c does NOT expose port 22 publicly
+✅ sg-4fc19336 does NOT expose port 22 publicly
+✅ sg-66660800 does NOT expose port 22 publicly
+✅ sg-8d1a1ff4 does NOT expose port 22 publicly
+✅ sg-08f93270 does NOT expose port 22 publicly
+✅ sg-0c64fd8d6365b1470 does NOT expose port 22 publicly
+✅ sg-0e4353a5888341366 does NOT expose port 22 publicly
+✅ sg-a8a290d1 does NOT expose port 22 publicly
+✅ sg-051537b0d23e84331 does NOT expose port 22 publicly
+✅ sg-949470eb does NOT expose port 22 publicly
+✅ sg-a91214d1 does NOT expose port 22 publicly
+✅ sg-23c0d85a does NOT expose port 22 publicly
+✅ sg-42ff153a does NOT expose port 22 publicly
+✅ sg-a71322de does NOT expose port 22 publicly
+✅ sg-05c6cc64ca3837322 does NOT expose port 22 publicly
+✅ sg-3206314a does NOT expose port 22 publicly
+✅ sg-0099540265a18b3c6 does NOT expose port 22 publicly
+✅ sg-0b7ccb3d9787a70d2 does NOT expose port 22 publicly
+✅ sg-58eef321 does NOT expose port 22 publicly
+✅ sg-fcec6e99 does NOT expose port 22 publicly
+✅ sg-f7f9758c does NOT expose port 22 publicly
+✅ sg-147b655d does NOT expose port 22 publicly
+✅ sg-def58ca6 does NOT expose port 22 publicly
+✅ sg-7c6c1a04 does NOT expose port 22 publicly
+✅ sg-ee10c6a4 does NOT expose port 22 publicly
+✅ sg-0ec33276 does NOT expose port 22 publicly
+✅ sg-bda964db does NOT expose port 22 publicly
+✅ sg-f8cb9c80 does NOT expose port 22 publicly
+✅ sg-04e3467f3693cb0bb does NOT expose port 22 publicly
+✅ sg-8e408dea does NOT expose port 22 publicly
+✅ sg-c25de9a4 does NOT expose port 22 publicly
+✅ sg-ffa94a8a does NOT expose port 22 publicly
+✅ sg-35f37150 does NOT expose port 22 publicly
+✅ sg-05c8568eb1a66279b does NOT expose port 22 publicly
+✅ sg-081c33e437cd94398 does NOT expose port 22 publicly
+✅ sg-8aecf1f3 does NOT expose port 22 publicly
+✅ sg-1f7b8a7b does NOT expose port 22 publicly
+✅ sg-869217e2 does NOT expose port 22 publicly
+✅ sg-f23a6380 does NOT expose port 22 publicly
+✅ sg-799ec800 does NOT expose port 22 publicly
+✅ sg-979074e8 does NOT expose port 22 publicly
+✅ sg-0e754c433296b17f8 does NOT expose port 22 publicly
+✅ sg-9bde81e8 does NOT expose port 22 publicly
+✅ sg-65cb9c1d does NOT expose port 22 publicly
+✅ sg-0c31b64dd0486deb5 does NOT expose port 22 publicly
+✅ sg-4f7a0a2b does NOT expose port 22 publicly
+✅ sg-65fa7918 does NOT expose port 22 publicly
+✅ sg-285db651 does NOT expose port 22 publicly
+✅ sg-aa0addd2 does NOT expose port 22 publicly
+✅ sg-03de16de74f7dd447 does NOT expose port 22 publicly
+✅ sg-0700bca232d89c23a does NOT expose port 22 publicly
+✅ sg-0299f966efc2f64c2 does NOT expose port 22 publicly
+✅ sg-5b4c6222 does NOT expose port 22 publicly
+✅ sg-0a063172 does NOT expose port 22 publicly
+✅ sg-b2029cc4 does NOT expose port 22 publicly
+✅ sg-f4a1fe87 does NOT expose port 22 publicly
+✅ sg-0009015bf49b3b2c5 does NOT expose port 22 publicly
+✅ sg-a4e7d5dd does NOT expose port 22 publicly
+✅ sg-1299796b does NOT expose port 22 publicly
+✅ sg-095caf7619def4266 does NOT expose port 22 publicly
+✅ sg-d57d6fab does NOT expose port 22 publicly
+✅ sg-b3c032d7 does NOT expose port 22 publicly
+✅ sg-10788c67 does NOT expose port 22 publicly
+✅ sg-0076d940cc8acfb41 does NOT expose port 22 publicly
+✅ sg-f323d989 does NOT expose port 22 publicly
+✅ sg-deb88da7 does NOT expose port 22 publicly
+✅ sg-8017dde7 does NOT expose port 22 publicly
+✅ sg-cc6b71a9 does NOT expose port 22 publicly
+✅ sg-04ef178c4c22c05ef does NOT expose port 22 publicly
+✅ sg-e394709c does NOT expose port 22 publicly
+✅ sg-37fa794a does NOT expose port 22 publicly
+✅ sg-58a65a29 does NOT expose port 22 publicly
+✅ sg-8c9107f1 does NOT expose port 22 publicly
+✅ sg-d212d9aa does NOT expose port 22 publicly
+✅ sg-0e60dedc85fb1e9a1 does NOT expose port 22 publicly
+✅ sg-0f6519153aae6434b does NOT expose port 22 publicly
+✅ sg-5ff20d38 does NOT expose port 22 publicly
+✅ sg-1f13a07b does NOT expose port 22 publicly
+✅ sg-a6425bde does NOT expose port 22 publicly
+✅ sg-1538e571 does NOT expose port 22 publicly
+✅ sg-9126e4f5 does NOT expose port 22 publicly
+✅ sg-0501278487e1484f2 does NOT expose port 22 publicly
+✅ sg-a3ecacc7 does NOT expose port 22 publicly
+✅ sg-70cbad15 does NOT expose port 22 publicly
+✅ sg-c78a57bf does NOT expose port 22 publicly
+✅ sg-fc121484 does NOT expose port 22 publicly
+✅ sg-4337063a does NOT expose port 22 publicly
+✅ sg-4c91d339 does NOT expose port 22 publicly
+✅ sg-cf3ae6b7 does NOT expose port 22 publicly
+✅ sg-63310d18 does NOT expose port 22 publicly
+✅ sg-bafa79c7 does NOT expose port 22 publicly
+✅ sg-e16b9394 does NOT expose port 22 publicly
+✅ sg-7515130d does NOT expose port 22 publicly
+✅ sg-b09733c8 does NOT expose port 22 publicly
+✅ sg-1a27a260 does NOT expose port 22 publicly
+
+
+====================================
+Running check: checks/ec2-port3389-open.sh
+Category: EC2
+====================================
+[EC2] Checking for Security Groups with port 3389 (RDP) open...
+✅ SG sg-df4120ba is locked down for RDP
+✅ SG sg-e5fff1af is locked down for RDP
+✅ SG sg-b8a2fdcb is locked down for RDP
+✅ SG sg-a91dffcd is locked down for RDP
+✅ SG sg-0e2edb30ec27f4ac1 is locked down for RDP
+✅ SG sg-3a1ee440 is locked down for RDP
+✅ SG sg-04e6af1fede2de657 is locked down for RDP
+✅ SG sg-b3d6e3ca is locked down for RDP
+✅ SG sg-3fd53547 is locked down for RDP
+✅ SG sg-2531b45f is locked down for RDP
+✅ SG sg-0146d88650803b830 is locked down for RDP
+✅ SG sg-90d232e8 is locked down for RDP
+✅ SG sg-3a176441 is locked down for RDP
+✅ SG sg-2943144c is locked down for RDP
+✅ SG sg-060b37d7b4eca493c is locked down for RDP
+✅ SG sg-9a2be9fe is locked down for RDP
+✅ SG sg-c5b443b2 is locked down for RDP
+✅ SG sg-088ed16effb036675 is locked down for RDP
+❌ SG sg-f1063189 has port 3389 open to the world
+✅ SG sg-7d573118 is locked down for RDP
+✅ SG sg-515c4921 is locked down for RDP
+✅ SG sg-8a7a8bee is locked down for RDP
+✅ SG sg-064bd7d5442553d89 is locked down for RDP
+✅ SG sg-75256511 is locked down for RDP
+✅ SG sg-623c8319 is locked down for RDP
+✅ SG sg-c91214b1 is locked down for RDP
+✅ SG sg-ad7685ca is locked down for RDP
+✅ SG sg-d117f1ad is locked down for RDP
+✅ SG sg-22e6135a is locked down for RDP
+✅ SG sg-4486d63a is locked down for RDP
+✅ SG sg-869712e2 is locked down for RDP
+✅ SG sg-64122e1f is locked down for RDP
+✅ SG sg-dfb587a6 is locked down for RDP
+✅ SG sg-552e4f30 is locked down for RDP
+✅ SG sg-d5fa79a8 is locked down for RDP
+✅ SG sg-009d473fb44c643c1 is locked down for RDP
+✅ SG sg-befc37c6 is locked down for RDP
+✅ SG sg-016c1ce91e11c0644 is locked down for RDP
+✅ SG sg-ab1b2ad2 is locked down for RDP
+✅ SG sg-9ec42fe7 is locked down for RDP
+✅ SG sg-d26796b6 is locked down for RDP
+✅ SG sg-f1eef388 is locked down for RDP
+✅ SG sg-09d2d874 is locked down for RDP
+✅ SG sg-c5cd9abd is locked down for RDP
+✅ SG sg-17e7126f is locked down for RDP
+✅ SG sg-083f95b7088bd4d68 is locked down for RDP
+✅ SG sg-0b430a9d94bd7c8a9 is locked down for RDP
+✅ SG sg-3b9b064c is locked down for RDP
+✅ SG sg-eeeff297 is locked down for RDP
+✅ SG sg-2345115c is locked down for RDP
+✅ SG sg-7d432218 is locked down for RDP
+✅ SG sg-db9470a4 is locked down for RDP
+✅ SG sg-20cd3657 is locked down for RDP
+✅ SG sg-050589ae3d5aca1b0 is locked down for RDP
+✅ SG sg-09a3361df6ac2d35f is locked down for RDP
+✅ SG sg-b738e5d3 is locked down for RDP
+✅ SG sg-057485cd6b4f41a7c is locked down for RDP
+✅ SG sg-a08686d9 is locked down for RDP
+✅ SG sg-0fde8a3b35475153c is locked down for RDP
+✅ SG sg-4fc19336 is locked down for RDP
+✅ SG sg-66660800 is locked down for RDP
+✅ SG sg-8d1a1ff4 is locked down for RDP
+✅ SG sg-08f93270 is locked down for RDP
+✅ SG sg-0c64fd8d6365b1470 is locked down for RDP
+✅ SG sg-0e4353a5888341366 is locked down for RDP
+✅ SG sg-a8a290d1 is locked down for RDP
+✅ SG sg-051537b0d23e84331 is locked down for RDP
+✅ SG sg-949470eb is locked down for RDP
+✅ SG sg-a91214d1 is locked down for RDP
+✅ SG sg-23c0d85a is locked down for RDP
+✅ SG sg-42ff153a is locked down for RDP
+✅ SG sg-a71322de is locked down for RDP
+✅ SG sg-05c6cc64ca3837322 is locked down for RDP
+✅ SG sg-3206314a is locked down for RDP
+✅ SG sg-0099540265a18b3c6 is locked down for RDP
+✅ SG sg-0b7ccb3d9787a70d2 is locked down for RDP
+✅ SG sg-58eef321 is locked down for RDP
+✅ SG sg-fcec6e99 is locked down for RDP
+✅ SG sg-f7f9758c is locked down for RDP
+✅ SG sg-147b655d is locked down for RDP
+✅ SG sg-def58ca6 is locked down for RDP
+✅ SG sg-7c6c1a04 is locked down for RDP
+✅ SG sg-ee10c6a4 is locked down for RDP
+✅ SG sg-0ec33276 is locked down for RDP
+✅ SG sg-bda964db is locked down for RDP
+✅ SG sg-f8cb9c80 is locked down for RDP
+✅ SG sg-04e3467f3693cb0bb is locked down for RDP
+✅ SG sg-8e408dea is locked down for RDP
+✅ SG sg-c25de9a4 is locked down for RDP
+✅ SG sg-ffa94a8a is locked down for RDP
+✅ SG sg-35f37150 is locked down for RDP
+✅ SG sg-05c8568eb1a66279b is locked down for RDP
+✅ SG sg-081c33e437cd94398 is locked down for RDP
+✅ SG sg-8aecf1f3 is locked down for RDP
+✅ SG sg-1f7b8a7b is locked down for RDP
+✅ SG sg-869217e2 is locked down for RDP
+✅ SG sg-f23a6380 is locked down for RDP
+✅ SG sg-799ec800 is locked down for RDP
+✅ SG sg-979074e8 is locked down for RDP
+✅ SG sg-0e754c433296b17f8 is locked down for RDP
+✅ SG sg-9bde81e8 is locked down for RDP
+✅ SG sg-65cb9c1d is locked down for RDP
+✅ SG sg-0c31b64dd0486deb5 is locked down for RDP
+✅ SG sg-4f7a0a2b is locked down for RDP
+✅ SG sg-65fa7918 is locked down for RDP
+✅ SG sg-285db651 is locked down for RDP
+✅ SG sg-aa0addd2 is locked down for RDP
+✅ SG sg-03de16de74f7dd447 is locked down for RDP
+✅ SG sg-0700bca232d89c23a is locked down for RDP
+✅ SG sg-0299f966efc2f64c2 is locked down for RDP
+❌ SG sg-5b4c6222 has port 3389 open to the world
+✅ SG sg-0a063172 is locked down for RDP
+✅ SG sg-b2029cc4 is locked down for RDP
+✅ SG sg-f4a1fe87 is locked down for RDP
+✅ SG sg-0009015bf49b3b2c5 is locked down for RDP
+✅ SG sg-a4e7d5dd is locked down for RDP
+✅ SG sg-1299796b is locked down for RDP
+✅ SG sg-095caf7619def4266 is locked down for RDP
+✅ SG sg-d57d6fab is locked down for RDP
+✅ SG sg-b3c032d7 is locked down for RDP
+✅ SG sg-10788c67 is locked down for RDP
+✅ SG sg-0076d940cc8acfb41 is locked down for RDP
+✅ SG sg-f323d989 is locked down for RDP
+✅ SG sg-deb88da7 is locked down for RDP
+✅ SG sg-8017dde7 is locked down for RDP
+✅ SG sg-cc6b71a9 is locked down for RDP
+✅ SG sg-04ef178c4c22c05ef is locked down for RDP
+✅ SG sg-e394709c is locked down for RDP
+✅ SG sg-37fa794a is locked down for RDP
+✅ SG sg-58a65a29 is locked down for RDP
+✅ SG sg-8c9107f1 is locked down for RDP
+✅ SG sg-d212d9aa is locked down for RDP
+✅ SG sg-0e60dedc85fb1e9a1 is locked down for RDP
+✅ SG sg-0f6519153aae6434b is locked down for RDP
+✅ SG sg-5ff20d38 is locked down for RDP
+✅ SG sg-1f13a07b is locked down for RDP
+✅ SG sg-a6425bde is locked down for RDP
+✅ SG sg-1538e571 is locked down for RDP
+✅ SG sg-9126e4f5 is locked down for RDP
+✅ SG sg-0501278487e1484f2 is locked down for RDP
+✅ SG sg-a3ecacc7 is locked down for RDP
+✅ SG sg-70cbad15 is locked down for RDP
+✅ SG sg-c78a57bf is locked down for RDP
+✅ SG sg-fc121484 is locked down for RDP
+✅ SG sg-4337063a is locked down for RDP
+✅ SG sg-4c91d339 is locked down for RDP
+✅ SG sg-cf3ae6b7 is locked down for RDP
+✅ SG sg-63310d18 is locked down for RDP
+✅ SG sg-bafa79c7 is locked down for RDP
+✅ SG sg-e16b9394 is locked down for RDP
+✅ SG sg-7515130d is locked down for RDP
+✅ SG sg-b09733c8 is locked down for RDP
+✅ SG sg-1a27a260 is locked down for RDP
+
+
+====================================
+Running check: checks/elb-logging.sh
+Category: ELB
+====================================
+[ELB] Checking for ELBs without access logging enabled...
+❌ ELB flow-license-lb does NOT have access logging enabled
+❌ ELB flow-homework-lb does NOT have access logging enabled
+❌ ELB flow-app2app-global-lb does NOT have access logging enabled
+❌ ELB legacy-coldfusion-sites does NOT have access logging enabled
+❌ ELB tabletworks-license-lb does NOT have access logging enabled
+❌ ELB updatenod-ElasticL-11Z3LNXPNQBJN does NOT have access logging enabled
+❌ ELB polling-r-ElasticL-ZWZLGHI62OOV does NOT have access logging enabled
+❌ ELB shared-rabbit-elb does NOT have access logging enabled
+
+
+====================================
+Running check: checks/elbv2-https.sh
+Category: ELBv2
+====================================
+[ELBv2] Checking for HTTP-only listeners (unencrypted traffic)...
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/lms-middleware-npdalcanint04/d3ea0b0f16d3d1db is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/magento-lb/074bb839bce9d3a7 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/lms-integration-alb/265da3ee6cc96fed is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/web-redirect/a17bc03612dccf09 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/polling-server-alb/cffae6a7f0d9a255 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/account-alb/f8f28e6f3a9aa2be is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/results-alb/f25be00090331be5 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/account-api-alb/eb3f3b1cd06a7173 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/results-server-consumer-alb/d601a10283d3fe58 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/scheduling-consumer-alb/27248e2c573a146a is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/scheduling-alb/fd0c8e59c7f56cb2 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/postgres-notification-alb/d453323eab4cfde0 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/session-analytics-alb/8268edbd79694e85 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/utility-alb/fac561c039c24d4f is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/user-server-consumer-alb/bbc076f0b0c6029d is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/lms-oauth-alb/e6d2f0f0a96d6235 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/content-alb/3f4785a5fa24ecc5 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/gradebook-alb/36b14a0167123772 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/content-consumer-alb/ad01d16b5c0c9f3b is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/web-store-consumer-alb/46d9904a2b008083 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/application-error-consumer-alb/457309019c806bff is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/license-alb/0614d8ab2f2e2c91 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/webstore-alb/87e06243f87f4d6a is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/email-alb/dc4eae684616b832 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/push-notification-alb/f009503f1f52e2e3 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/content-converter-alb/28c2db285ff21499 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/examview-converter-alb/459d3d02ff8bc7fc is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/teamcity-alb/e5d1056155e4d7b6 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/webapp01-alb/9a914947424e924f is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-admin-api-alb/bfa59a0fa7ac172e is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-notifications-api-alb/da1342977ef101c0 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-commenting-api-alb/75839721e63d5de7 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-main-api-alb/ee6e9b068a5cc1dc is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-widget-service-alb/7e6e6181837666b4 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-media-service-alb/213afa1c9ece389e is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-kup-server-alb/c655e69088b0b9ae is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/nexus-alb/0eed67f31fb79d5f is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-widget-export-alb/36a604b85e83ed7b is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-course-export-alb/327334eea4735fcf is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-wiris-service-alb/9a803d1c620df98d is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-course-embed-alb/dc35a65e5ea51938 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/flow-app2app-endpoint-lb/8eacc03b8f2c839e is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/flow-app2app-endpoint-lb-1/1496696d0752658b is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/account-echoexam-alb/c0cacbe3f32165e6 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/ai-playground-alb/1d5a6a60237ad808 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/Subversion-ALB/2ec686b8da7a3785 is using an unencrypted HTTP listener
+
+
+====================================
+Running check: checks/elbv2-tls-policy.sh
+Category: ELBv2
+====================================
+[ELBv2] Checking TLS policy strength on HTTPS listeners...
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/magento-lb/074bb839bce9d3a7 uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/lms-integration-alb/265da3ee6cc96fed uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/web-redirect/a17bc03612dccf09 uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/polling-server-alb/cffae6a7f0d9a255 uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/account-alb/f8f28e6f3a9aa2be uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/results-alb/f25be00090331be5 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/account-api-alb/eb3f3b1cd06a7173 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/results-server-consumer-alb/d601a10283d3fe58 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/scheduling-consumer-alb/27248e2c573a146a uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/scheduling-alb/fd0c8e59c7f56cb2 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/npm-registry-alb/97f7ba85d1332086 uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/postgres-notification-alb/d453323eab4cfde0 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/session-analytics-alb/8268edbd79694e85 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/utility-alb/fac561c039c24d4f uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/user-server-consumer-alb/bbc076f0b0c6029d uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/lms-oauth-alb/e6d2f0f0a96d6235 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/content-alb/3f4785a5fa24ecc5 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/gradebook-alb/36b14a0167123772 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/content-consumer-alb/ad01d16b5c0c9f3b uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/web-store-consumer-alb/46d9904a2b008083 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/application-error-consumer-alb/457309019c806bff uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/license-alb/0614d8ab2f2e2c91 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/webstore-alb/87e06243f87f4d6a uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/email-alb/dc4eae684616b832 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/push-notification-alb/f009503f1f52e2e3 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/content-converter-alb/28c2db285ff21499 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/examview-converter-alb/459d3d02ff8bc7fc uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/teamcity-alb/e5d1056155e4d7b6 uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/webapp01-alb/9a914947424e924f uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-admin-api-alb/bfa59a0fa7ac172e uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-notifications-api-alb/da1342977ef101c0 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-commenting-api-alb/75839721e63d5de7 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-main-api-alb/ee6e9b068a5cc1dc uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-widget-service-alb/7e6e6181837666b4 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-media-service-alb/213afa1c9ece389e uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-kup-server-alb/c655e69088b0b9ae uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/nexus-alb/0eed67f31fb79d5f uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-widget-export-alb/36a604b85e83ed7b uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-course-export-alb/327334eea4735fcf uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-wiris-service-alb/9a803d1c620df98d uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/knowbly-course-embed-alb/dc35a65e5ea51938 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/flow-app2app-endpoint-lb/8eacc03b8f2c839e uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/flow-app2app-endpoint-lb-1/1496696d0752658b uses secure TLS policy: ELBSecurityPolicy-2016-08
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/account-echoexam-alb/c0cacbe3f32165e6 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/ai-playground-alb/1d5a6a60237ad808 uses secure TLS policy: ELBSecurityPolicy-TLS-1-1-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:312977236902:loadbalancer/app/Subversion-ALB/2ec686b8da7a3785 uses secure TLS policy: ELBSecurityPolicy-TLS13-1-2-2021-06
+
+
+====================================
+Running check: checks/guardduty-enabled.sh
+Category: GuardDuty
+====================================
+[GuardDuty] Checking if GuardDuty is enabled...
+✅ GuardDuty is enabled (Detector ID: 14b003f561236bfcbd849af7c974f335)
+
+
+====================================
+Running check: checks/iam-inline-policies.sh
+Category: IAM
+====================================
+[IAM] Checking for IAM entities with inline policies...
+❌ User examview-ses-smtp-user has inline policies: AmazonSesSendingAccess
+❌ User ses-smtp-user-production.2021-01-27 has inline policies: AmazonSesSendingAccess
+❌ Role account-api-role-ap-southeast-1 has inline policies: quicksight-dashboard	quicksight-groups	quicksight-ingestion	quicksight-users	secrets-manager	turning-custom-policy
+❌ Role account-api-role-ap-southeast-2 has inline policies: quicksight-dashboard	quicksight-groups	quicksight-ingestion	quicksight-users	secrets-manager	turning-custom-policy
+❌ Role account-api-role-eu-central-1 has inline policies: quicksight-dashboard	quicksight-groups	quicksight-ingestion	quicksight-users	secrets-manager	turning-custom-policy
+❌ Role account-api-role-us-east-1 has inline policies: quicksight-dashboard	quicksight-groups	quicksight-ingestion	quicksight-users	secrets-manager	SecretsManager-zoomConfig-Read	turning-custom-policy
+❌ Role account-echoexam-role-ap-southeast-2 has inline policies: cloudwatch-custom-metrics
+❌ Role account-echoexam-role-eu-central-1 has inline policies: cloudwatch-custom-metrics
+❌ Role account-echoexam-role-us-east-1 has inline policies: cloudwatch-custom-metrics
+❌ Role account-role-ap-southeast-1 has inline policies: cloudwatch-custom-metrics
+❌ Role account-role-ap-southeast-2 has inline policies: cloudwatch-custom-metrics
+❌ Role account-role-eu-central-1 has inline policies: cloudwatch-custom-metrics
+❌ Role account-role-us-east-1 has inline policies: cloudwatch-custom-metrics
+❌ Role ai-playground-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role ai-playground-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role ai-playground-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role AmazonGrafanaServiceRole-yoYfvneEh has inline policies: GrafanaAssumeRole
+❌ Role analytics-health-check-state-machine has inline policies: analytics-health-invoke-lambda
+❌ Role analytics-lambda-role has inline policies: analytics-lambda-log-access	analytics-lambda-storage-access
+❌ Role analytics-redshift-role has inline policies: analytics-redshift-unload
+❌ Role application-error-consumer-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role application-error-consumer-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role application-error-consumer-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role application-error-consumer-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role application-load-balancer-wafCLCRole-eu-central-1 has inline policies: application-load-balancer-wafCLCLogPolicy	application-load-balancer-wafCLCS3Access
+❌ Role application-load-balancer-wafCPRole-eu-central-1 has inline policies: application-load-balancer-wafCPLogPolicy	application-load-balancer-wafCPS3Access	application-load-balancer-wafCPWafAccess
+❌ Role application-load-balancer-wafCRRole-eu-central-1 has inline policies: application-load-balancer-wafCRLogPolicy	application-load-balancer-wafCRS3Access	application-load-balancer-wafCRWafAccess
+❌ Role AutomationServiceRole has inline policies: passrole
+❌ Role aws-config-role has inline policies: oneClick_config-role_1419398499414
+❌ Role AWS-QuickSetup-HostMgmtRole-us-east-1-win9f has inline policies: AWS-QuickSetup-SSMHostMgmt-CreateAndAttachRoleInlinePolicy-us-east-1-win9f	SSMQuickSetupEnableExplorerInlinePolicy
+❌ Role AWS-QuickSetup-StackSet-Local-AdministrationRole has inline policies: AssumeRole-AWS-QuickSetup-StackSet-Local-ExecutionRole
+❌ Role AWSCloudFormationStackSetExecutionRole has inline policies: AssumeRole-AWSCloudFormationStackSetExecutionRole
+❌ Role AWSCostAndUsageDashboardServiceRole-20240828T132309 has inline policies: cost-and-usage-dashboard-policy
+❌ Role AWSCostAndUsageDashboardServiceRole-20240828T152242 has inline policies: cost-and-usage-dashboard-policy
+❌ Role AWSReservedSSO_AdministratorAccess_afb4899690f01de1 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Business-Development_6ab5c265d1251701 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_CaptureTeam_02198b21dfa8f561 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_CorporateIT_77c48a47a05f1e26 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Engineering_e0941ba0da372508 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Finance_ceb182476861288a has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_QuickSight_Turning_9966e575b4f61825 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Read-only_aa9313b7b1fc9cf1 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_SRETeam_ad41a311ef04d7b1 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Support_25123948b1afc80d has inline policies: AwsSSOInlinePolicy
+❌ Role AWSServiceRoleForAmazonConnect_BipkRp5Y8FUXZWqKv7kA has inline policies: AmazonConnectServiceCallRecordingAccess	AmazonConnectServiceContactFlowLogsAccess	AmazonConnectServiceExportedReportsAccess
+❌ Role content-consumer-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role content-consumer-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role content-consumer-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role content-consumer-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role content-converter-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role content-converter-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role content-converter-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role content-converter-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role content-role-ap-southeast-1 has inline policies: content-secrets	property-store	s3-user-content	turning-custom-policy
+❌ Role content-role-ap-southeast-2 has inline policies: content-secrets	property-store	s3-user-content	turning-custom-policy
+❌ Role content-role-eu-central-1 has inline policies: content-secrets	property-store	s3-user-content	turning-custom-policy
+❌ Role content-role-us-east-1 has inline policies: content-secrets	property-store	s3-user-content	turning-custom-policy
+❌ Role CrowdStrikeCSPMEventBridge has inline policies: eventbridge-put-events
+❌ Role CrowdStrikeCSPMReader-qvnjjmo6s894 has inline policies: cspm_config
+❌ Role CrowdStrikeCSPMRegistration has inline policies: registration
+❌ Role CrowdStrikeSensorManagement has inline policies: sensor-management-invoke-orchestrator-lambda
+❌ Role CrowdStrikeSensorManagementOrchestrator has inline policies: sensor-management-orchestrator-lambda-ssm-send-command
+❌ Role cs-echo360-crowdstrike-cloudsecurity-sa has inline policies: cs-echo360-crowdstrike-cloudsecurity
+❌ Role data-import-role-ap-southeast-1 has inline policies: cloudwatch-custom-metrics	cloudwatch-logs
+❌ Role data-import-role-ap-southeast-2 has inline policies: cloudwatch-custom-metrics	cloudwatch-logs
+❌ Role data-import-role-eu-central-1 has inline policies: cloudwatch-custom-metrics	cloudwatch-logs
+❌ Role data-import-role-us-east-1 has inline policies: cloudwatch-custom-metrics	cloudwatch-logs
+❌ Role datadog-forwarder-ForwarderRole-TORSREVWY0OC has inline policies: ForwarderRolePolicy0
+❌ Role email-role-ap-southeast-1 has inline policies: ses-send-email-policy	sqs-email-policy	turning-custom-policy
+❌ Role email-role-ap-southeast-2 has inline policies: ses-send-email-policy	sqs-email-policy	turning-custom-policy
+❌ Role email-role-eu-central-1 has inline policies: ses-send-email-policy	sqs-email-policy	turning-custom-policy
+❌ Role email-role-us-east-1 has inline policies: ses-send-email-policy	sqs-email-policy	turning-custom-policy
+❌ Role examview-converter-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role examviewcloud-role has inline policies: AmazonS3-ReadOnlyAccess	cloudwatch-logs
+❌ Role FugueRiskManager has inline policies: RiskManager
+❌ Role gradebook-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role gradebook-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role gradebook-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role gradebook-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role GuardDutyToAWSFirewallPRO-GuardDutytoFirewallRecord-JOmFyft6D0rT has inline policies: GuardDutytoFirewallRecordLambdaPolicy
+❌ Role GuardDutyToAWSFirewallPRO-GuardDutytoFirewallStateM-iYipGfpUJr34 has inline policies: GuardDutytoFirewallStateMachineStartExecution
+❌ Role GuardDutyToAWSFirewallPRO-GuardDutytoFirewallStateM-ZQO532EeBf9I has inline policies: GuardDutytoFirewallStateMachineExecutionPolicy
+❌ Role GuardDutyToAWSFirewallPRO-PruneGetExpiredIPsLambdaE-RoRC4k6pDslG has inline policies: PruneGetExpiredIPsLambdaPolicy
+❌ Role GuardDutyToAWSFirewallPRO-PruneRecordsLambdaExecuti-oY167sUKqtYG has inline policies: PruneRecordsLambdaPolicy
+❌ Role GuardDutyToAWSFirewallPRO-PruningStateMachineEventR-taXQSezXHPjp has inline policies: PruningStateMachineStartExecution
+❌ Role GuardDutyToAWSFirewallPRO-PruningStateMachineExecut-8sEpV24AR5rg has inline policies: PruningStateMachineExecutionPolicy
+❌ Role GuardDutyToAWSFirewallPRO-UpdateNetworkFirewallRule-399855T2GNgL has inline policies: UpdateNetworkFirewallRuleGroupLambdaExecutionRolePolicy
+❌ Role instructor-polling-server-server-role-ap-southeast-1 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role instructor-polling-server-server-role-ap-southeast-2 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role instructor-polling-server-server-role-eu-central-1 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role instructor-polling-server-server-role-us-east-1 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role knowbly-admin-api-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role knowbly-admin-api-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role knowbly-admin-api-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role knowbly-admin-api-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role knowbly-commenting-api-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role knowbly-commenting-api-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role knowbly-commenting-api-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role knowbly-commenting-api-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role knowbly-course-embed-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role knowbly-course-export-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role knowbly-main-api-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role knowbly-main-api-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role knowbly-main-api-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role knowbly-main-api-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role knowbly-media-service-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role knowbly-notifications-api-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role knowbly-notifications-api-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role knowbly-notifications-api-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role knowbly-notifications-api-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role knowbly-widget-export-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role knowbly-widget-service-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role knowbly-wiris-service-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role lambda-basic-execution has inline policies: oneClick_lambda_basic_execution_1445532380569
+❌ Role lambda-secrets-execution has inline policies: lambda-exec-lambda-policy
+❌ Role lambda_ec2_execution has inline policies: oneClick_lambda_basic_execution_1479221220973
+❌ Role lambda_s3_execution has inline policies: oneClick_lambda_s3_execution_1484162990506
+❌ Role lamda-app-client-role has inline policies: policygen-lamda-app-client-role-201607261614
+❌ Role license-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role lms-integration-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role lms-integration-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role lms-integration-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role lms-integration-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role lms-oauth-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role lms-oauth-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role lms-oauth-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role lms-oauth-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role logz_io_execution has inline policies: oneClick_lambda_basic_execution_1519834183290
+❌ Role LucidscaleImportRole has inline policies: LucidImportPolicy
+❌ Role lw-echo360-laceworkcwsrole-sa has inline policies: LaceworkCWSPolicy
+❌ Role manager-role has inline policies: dms_nightly_migration	ManageSnapshots-manager-role-201409162152
+❌ Role message-queue-role has inline policies: AmazonEC2ReadOnlyAccess-message-queue-role-201407111321	AmazonS3ReadOnlyAccess-message-queue-role-201407111321	put-metric-data
+❌ Role nightly-migration-state-machine has inline policies: nightly_dms_invoke_lambda
+❌ Role npm-registry-role-us-east-1 has inline policies: s3-npm-full-access
+❌ Role polling-rmq-shared-role-ap-southeast-1 has inline policies: cloudwatch-custom-metrics	cloudwatch-logs	t2-unlimited
+❌ Role polling-rmq-shared-role-ap-southeast-2 has inline policies: cloudwatch-custom-metrics	cloudwatch-logs	t2-unlimited
+❌ Role polling-rmq-shared-role-eu-central-1 has inline policies: cloudwatch-custom-metrics	cloudwatch-logs	t2-unlimited
+❌ Role polling-rmq-shared-role-us-east-1 has inline policies: cloudwatch-custom-metrics	cloudwatch-logs	t2-unlimited
+❌ Role polling-server-server-role-ap-southeast-1 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role polling-server-server-role-ap-southeast-2 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role polling-server-server-role-eu-central-1 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role polling-server-server-role-us-east-1 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role postgres-notification-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role postgres-notification-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role postgres-notification-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role postgres-notification-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role push-notification-role-ap-southeast-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role push-notification-role-ap-southeast-2 has inline policies: secrets-manager	turning-custom-policy
+❌ Role push-notification-role-eu-central-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role push-notification-role-us-east-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role rabbit-messages-python-role-lwk3da4d has inline policies: Metrics
+❌ Role results-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role results-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role results-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role results-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role results-server-consumer-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role results-server-consumer-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role results-server-consumer-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role results-server-consumer-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role scheduling-consumer-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role scheduling-consumer-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role scheduling-consumer-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role scheduling-consumer-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role scheduling-role-ap-southeast-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role scheduling-role-ap-southeast-2 has inline policies: secrets-manager	turning-custom-policy
+❌ Role scheduling-role-eu-central-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role scheduling-role-us-east-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role session-analytics-role-ap-southeast-1 has inline policies: turning-custom-policy
+❌ Role session-analytics-role-ap-southeast-2 has inline policies: turning-custom-policy
+❌ Role session-analytics-role-eu-central-1 has inline policies: turning-custom-policy
+❌ Role session-analytics-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role sftp-for-youngstown-stora-TransferIdentityProviderR-3Soem0lWxQYl has inline policies: TransferCanInvokeThisApi	TransferCanReadThisApi
+❌ Role sftp-for-youngstown-storage-g-ApiCloudWatchLogsRole-O4AK3U6g9QPq has inline policies: ApiGatewayLogsPolicy
+❌ Role sftp-for-youngstown-storage-g-CloudWatchLoggingRole-SRxDlsDuzUpr has inline policies: TransferLogsPolicy
+❌ Role sftp-for-youngstown-storage-gat-LambdaExecutionRole-xhN5lCJ4qWFb has inline policies: LambdaSecretsPolicy
+❌ Role sftp-for-youngstown-storage-gateway-volume has inline policies: main
+❌ Role shared-message-queue-role-ap-southeast-1 has inline policies: cloudwatch-custom-metrics	rabbit-custom-metrics
+❌ Role shared-message-queue-role-ap-southeast-2 has inline policies: cloudwatch-custom-metrics	rabbit-custom-metrics
+❌ Role shared-rabbit-role-ap-southeast-1 has inline policies: rabbit-custom-metrics
+❌ Role shared-rabbit-role-ap-southeast-2 has inline policies: rabbit-custom-metrics
+❌ Role shared-rabbit-role-eu-central-1 has inline policies: rabbit-custom-metrics
+❌ Role shared-rabbit-role-us-east-1 has inline policies: rabbit-custom-metrics
+❌ Role student-polling-server-server-role-ap-southeast-1 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role student-polling-server-server-role-ap-southeast-2 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role student-polling-server-server-role-eu-central-1 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role student-polling-server-server-role-us-east-1 has inline policies: cloudwatch-logs	polling-secrets	turning-custom-policy
+❌ Role terraform has inline policies: terraform
+❌ Role updatenode-CodeDeployServiceRole-1EGE2RR525WJG has inline policies: CodeDeployPolicy
+❌ Role updatenode-InstanceRole-1PEV8PX7L1B5E has inline policies: InstanceRolePolicies
+❌ Role user-server-consumer-role-ap-southeast-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role user-server-consumer-role-ap-southeast-2 has inline policies: secrets-manager	turning-custom-policy
+❌ Role user-server-consumer-role-eu-central-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role user-server-consumer-role-us-east-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role utility-role-ap-southeast-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role utility-role-ap-southeast-2 has inline policies: secrets-manager	turning-custom-policy
+❌ Role utility-role-eu-central-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role utility-role-us-east-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role vmimport has inline policies: vmimport
+❌ Role vpc-flowlogs-role has inline policies: oneClick_flowlogsRole_1517353245222
+❌ Role VulnScanReadOnly has inline policies: VulnScanReadOnlyPolicy
+❌ Role web-redirect-role has inline policies: cloudwatch-logging
+❌ Role web-redirect-role-us-east-1 has inline policies: turning-custom-policy
+❌ Role web-store-consumer-role-us-east-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Role webstore-role-us-east-1 has inline policies: secrets-manager	turning-custom-policy
+❌ Group Accounting has inline policies: AccountingViewBillingUsage
+❌ Group crowdstrike-cloud-security-users has inline policies: cs-echo360-crowdstrike-cloud-security-registration
+❌ Group Glacier has inline policies: AmazonGlacierFullAccess-Glacier-201412171702
+
+
+====================================
+Running check: checks/iam-no-mfa.sh
+Category: IAM
+====================================
+[IAM] Checking for users without MFA...
+❌ cgerli has NO MFA enabled
+✅ cpatrone has MFA enabled
+❌ crowdstrike-cloud-security has NO MFA enabled
+❌ examview-ses-smtp-user has NO MFA enabled
+❌ examview-vbote has NO MFA enabled
+❌ glacier has NO MFA enabled
+❌ grafana-user has NO MFA enabled
+❌ itsupport has NO MFA enabled
+❌ mavens3 has NO MFA enabled
+❌ rabbitmq has NO MFA enabled
+❌ service-account has NO MFA enabled
+❌ ses-smtp-user-production has NO MFA enabled
+❌ ses-smtp-user-production.2021-01-27 has NO MFA enabled
+❌ teamcity has NO MFA enabled
+❌ zamzar-au has NO MFA enabled
+❌ zamzar-eu has NO MFA enabled
+❌ zamzar-sg has NO MFA enabled
+❌ zamzar-us has NO MFA enabled
+❌ zamzar2-au has NO MFA enabled
+❌ zamzar2-eu has NO MFA enabled
+❌ zamzar2-sg has NO MFA enabled
+❌ zamzar2-us has NO MFA enabled
+
+
+====================================
+Running check: checks/iam-old-access-keys.sh
+Category: IAM
+====================================
+[IAM] Checking for access keys older than 90 days...
+⚠️  Could not parse timestamp for AKIAURXXFUOTDBSAE3HS
+⚠️  Could not parse timestamp for AKIAURXXFUOTHT4HTMHF
+⚠️  Could not parse timestamp for AKIAURXXFUOTBIOAZHNE
+⚠️  Could not parse timestamp for AKIAIGKXUZJU5AYBPRHA
+⚠️  Could not parse timestamp for AKIAURXXFUOTBF2ZFTLY
+⚠️  Could not parse timestamp for AKIAURXXFUOTEAA5QMTC
+⚠️  Could not parse timestamp for AKIAURXXFUOTPLWDMT4E
+⚠️  Could not parse timestamp for AKIAJN5YTXO4YUXBDONA
+⚠️  Could not parse timestamp for AKIAURXXFUOTMGNUVQ7S
+⚠️  Could not parse timestamp for AKIAURXXFUOTBTXTY3PF
+⚠️  Could not parse timestamp for AKIAURXXFUOTNLKPS7SP
+⚠️  Could not parse timestamp for AKIAURXXFUOTBMSVUKVA
+⚠️  Could not parse timestamp for AKIAURXXFUOTCOJVR34A
+⚠️  Could not parse timestamp for AKIAURXXFUOTP272PCG5
+⚠️  Could not parse timestamp for AKIAURXXFUOTP5JT7AVX
+⚠️  Could not parse timestamp for AKIAURXXFUOTEQ6PI4QA
+⚠️  Could not parse timestamp for AKIAURXXFUOTCHZQ4CF7
+⚠️  Could not parse timestamp for AKIAURXXFUOTBUQP3V7N
+⚠️  Could not parse timestamp for AKIAURXXFUOTAX2MUZX3
+⚠️  Could not parse timestamp for AKIAURXXFUOTKD2W3J7R
+
+
+====================================
+Running check: checks/iam-root-mfa.sh
+Category: IAM
+====================================
+[IAM] Checking if root account has MFA enabled...
+✅ Root account has MFA enabled
+
+
+====================================
+Running check: checks/rds-backups.sh
+Category: RDS
+====================================
+[RDS] Checking for RDS databases without automated backups...
+✅ account has backups enabled (retention: 7 days)
+✅ content has backups enabled (retention: 7 days)
+✅ content-converter has backups enabled (retention: 7 days)
+✅ email has backups enabled (retention: 7 days)
+✅ gradebook has backups enabled (retention: 7 days)
+✅ integration has backups enabled (retention: 7 days)
+✅ license has backups enabled (retention: 7 days)
+✅ polling has backups enabled (retention: 7 days)
+✅ push-notification has backups enabled (retention: 7 days)
+✅ results has backups enabled (retention: 7 days)
+✅ scheduling has backups enabled (retention: 7 days)
+✅ tabletworks has backups enabled (retention: 7 days)
+✅ teamcity has backups enabled (retention: 7 days)
+✅ updatenode-mysql-cf has backups enabled (retention: 7 days)
+✅ utility has backups enabled (retention: 7 days)
+✅ webstore has backups enabled (retention: 7 days)
+
+
+====================================
+Running check: checks/rds-encryption.sh
+Category: RDS
+====================================
+[RDS] Checking for unencrypted RDS databases...
+✅ account is encrypted
+✅ content is encrypted
+✅ content-converter is encrypted
+✅ email is encrypted
+✅ gradebook is encrypted
+✅ integration is encrypted
+✅ license is encrypted
+✅ polling is encrypted
+✅ push-notification is encrypted
+✅ results is encrypted
+✅ scheduling is encrypted
+❌ tabletworks is NOT encrypted
+✅ teamcity is encrypted
+❌ updatenode-mysql-cf is NOT encrypted
+✅ utility is encrypted
+✅ webstore is encrypted
+
+
+====================================
+Running check: checks/rds-public.sh
+Category: RDS
+====================================
+[RDS] Checking for publicly accessible RDS databases...
+✅ account is private
+✅ content is private
+✅ content-converter is private
+✅ email is private
+✅ gradebook is private
+✅ integration is private
+✅ license is private
+✅ polling is private
+✅ push-notification is private
+✅ results is private
+✅ scheduling is private
+✅ tabletworks is private
+✅ teamcity is private
+✅ updatenode-mysql-cf is private
+✅ utility is private
+✅ webstore is private
+
+
+====================================
+Running check: checks/s3-block-public-access.sh
+Category: S3
+====================================
+[S3] Checking for buckets missing Block Public Access settings...
+❌ accessories.turningtechnologies.com does NOT have Block Public Access settings configured
+
+
+====================================
+Running check: checks/s3-bucket-encryption.sh
+Category: S3
+====================================
+[S3] Checking for buckets without default encryption...
+✅ accessories.turningtechnologies.com has encryption enabled
+✅ application-load-balance-embargoedcountriesbucket-m7e5def3tc3 has encryption enabled
+✅ au.echoexam.app.client.prod has encryption enabled
+✅ au.echoexam.cdn.production has encryption enabled
+✅ au.echoexam.client-access-logs.production has encryption enabled
+✅ aws-config.turning.production.fedramp has encryption enabled
+✅ aws-config.turning.production.frankfurt has encryption enabled
+✅ aws-waf-migration-turningtech-production has encryption enabled
+✅ cf-templates-1dds6kszisu9f-ap-southeast-1 has encryption enabled
+✅ cf-templates-1dds6kszisu9f-ap-southeast-2 has encryption enabled
+✅ cf-templates-1dds6kszisu9f-eu-central-1 has encryption enabled
+✅ cf-templates-1dds6kszisu9f-us-east-1 has encryption enabled
+✅ com-turning-elb-polling-rmq has encryption enabled
+✅ com-turning-elb-shared-rabbit has encryption enabled
+✅ com-turningtech-account-storage-production has encryption enabled
+✅ com-turningtech-cloudfront-accesslogging-production has encryption enabled
+✅ com-turningtech-knowbly-course-export-production has encryption enabled
+✅ com-turningtech-knowbly-widget-export-production has encryption enabled
+✅ com-turningtech-maven-production has encryption enabled
+✅ com-turningtech-npm-production has encryption enabled
+✅ com-turningtech-oriondatabase has encryption enabled
+✅ com-turningtech-quicksight-export-production has encryption enabled
+✅ com-turningtech-quicksight-export-production-2 has encryption enabled
+✅ com-turningtech-teamcity-artifacts-production has encryption enabled
+✅ com-turningtech-teamcity-artifacts-production-access-logs has encryption enabled
+✅ com-turningtech-user-content-production has encryption enabled
+✅ com-turningtech-veeam-backups has encryption enabled
+✅ com-turningtech-zamzar-production has encryption enabled
+✅ com.echoexam.app.client.prod has encryption enabled
+✅ com.echoexam.cdn.production has encryption enabled
+✅ com.echoexam.client-access-logs.production has encryption enabled
+✅ com.turningtech.account-storage.production has encryption enabled
+✅ com.turningtech.account.production has encryption enabled
+✅ com.turningtech.admin-storage.production has encryption enabled
+✅ com.turningtech.analytics-data.production has encryption enabled
+✅ com.turningtech.analytics-storage.production has encryption enabled
+✅ com.turningtech.analytics-workspace.production has encryption enabled
+✅ com.turningtech.app.client.production has encryption enabled
+✅ com.turningtech.aws-config.production has encryption enabled
+✅ com.turningtech.cdn.production has encryption enabled
+✅ com.turningtech.client-access-logs.production has encryption enabled
+✅ com.turningtech.cloud.config.production has encryption enabled
+✅ com.turningtech.codedeploy.production has encryption enabled
+✅ com.turningtech.content-storage.production has encryption enabled
+✅ com.turningtech.devops.production has encryption enabled
+✅ com.turningtech.download.production has encryption enabled
+✅ com.turningtech.elb-logs.production has encryption enabled
+✅ com.turningtech.email.templates.production has encryption enabled
+✅ com.turningtech.evc.production has encryption enabled
+✅ com.turningtech.lambda.production.ap-southeast-1 has encryption enabled
+✅ com.turningtech.lambda.production.ap-southeast-2 has encryption enabled
+✅ com.turningtech.lambda.production.eu-central-1 has encryption enabled
+✅ com.turningtech.lambda.production.us-standard has encryption enabled
+✅ com.turningtech.magento.install.production has encryption enabled
+✅ com.turningtech.maintenance.production has encryption enabled
+✅ com.turningtech.repository-storage.production has encryption enabled
+✅ com.turningtech.responseware.production has encryption enabled
+✅ com.turningtech.ses.received.emails.production has encryption enabled
+✅ com.turningtech.session-file-storage.production has encryption enabled
+✅ com.turningtech.subversion.production has encryption enabled
+✅ com.turningtech.turning-cloud.config.production has encryption enabled
+✅ com.turningtech.updates.production has encryption enabled
+✅ com.turningtech.website.production has encryption enabled
+✅ com.turningtech.wordpress.production has encryption enabled
+✅ com.turningtechnologies.user-settings.production has encryption enabled
+✅ config-bucket-6902au has encryption enabled
+✅ config-bucket-6902sg has encryption enabled
+✅ connect-b3d114e5f0fa has encryption enabled
+✅ cw-syn-results-312977236902-us-east-1 has encryption enabled
+✅ datadog-forwarder-forwarderbucket-uwkqcus6tx6n has encryption enabled
+✅ dms-cas52irgqiw5jknsld72ohfwbe has encryption enabled
+✅ dms-cglutewrprtnqowktx6ridayq4 has encryption enabled
+✅ dms-glsvziemljqxxirfujwdhskys6j4cehcntgiofa has encryption enabled
+✅ dms-unz6lm4sl3p3pgxwxsfgnlygau has encryption enabled
+✅ echo-echo-pep-production-us-east-1-logs has encryption enabled
+✅ eu-turningtech-content-production has encryption enabled
+✅ eu-turningtech-user-content-production has encryption enabled
+✅ eu-turningtech-zamzar-production has encryption enabled
+✅ eu-turningtechnologies-account-storage-production has encryption enabled
+✅ eu.echoexam.app.client.prod has encryption enabled
+✅ eu.echoexam.cdn.production has encryption enabled
+✅ eu.echoexam.client-access-logs.production has encryption enabled
+✅ eu.turningtech.analytics-data.production has encryption enabled
+✅ eu.turningtech.analytics-workspace.production has encryption enabled
+✅ eu.turningtech.cdn.production has encryption enabled
+✅ eu.turningtech.client-access-logs.production has encryption enabled
+✅ eu.turningtech.elb-logs.production has encryption enabled
+✅ eu.turningtech.session-file-storage.production has encryption enabled
+✅ eu.turningtechnologies.account-storage.production has encryption enabled
+✅ eu.turningtechnologies.account.production has encryption enabled
+✅ eu.turningtechnologies.admin-storage.production has encryption enabled
+✅ eu.turningtechnologies.download.production has encryption enabled
+✅ eu.turningtechnologies.erp.production has encryption enabled
+✅ eu.turningtechnologies.responseware.production has encryption enabled
+✅ eu.turningtechnologies.user-settings.production has encryption enabled
+✅ examview-student.com has encryption enabled
+✅ imgsrv.turningtechnologies.com has encryption enabled
+✅ marketing.turningtechnologies.com has encryption enabled
+✅ net-turningtechau-content-production has encryption enabled
+✅ net-turningtechau-user-content-production has encryption enabled
+✅ net-turningtechau-zamzar-production has encryption enabled
+✅ net-turningtechnologiesau-account-storage-production has encryption enabled
+✅ net-turningtechnologiessg-account-storage-production has encryption enabled
+✅ net-turningtechsg-content-production has encryption enabled
+✅ net-turningtechsg-user-content-production has encryption enabled
+✅ net-turningtechsg-zamzar-production has encryption enabled
+✅ net.turningtechau.analytics-data.production has encryption enabled
+✅ net.turningtechau.analytics-workspace.production has encryption enabled
+✅ net.turningtechau.cdn.production has encryption enabled
+✅ net.turningtechau.client-access-logs.production has encryption enabled
+✅ net.turningtechau.elb-logs.production has encryption enabled
+✅ net.turningtechau.session-file-storage.production has encryption enabled
+✅ net.turningtechnologiesau.account-storage.production has encryption enabled
+✅ net.turningtechnologiesau.account.production has encryption enabled
+✅ net.turningtechnologiesau.admin-storage.production has encryption enabled
+✅ net.turningtechnologiesau.download.production has encryption enabled
+✅ net.turningtechnologiesau.erp.production has encryption enabled
+✅ net.turningtechnologiesau.responseware.production has encryption enabled
+✅ net.turningtechnologiesau.user-settings.production has encryption enabled
+✅ net.turningtechnologiessg.account-storage.production has encryption enabled
+✅ net.turningtechnologiessg.account.production has encryption enabled
+✅ net.turningtechnologiessg.admin-storage.production has encryption enabled
+✅ net.turningtechnologiessg.download.production has encryption enabled
+✅ net.turningtechnologiessg.erp.production has encryption enabled
+✅ net.turningtechnologiessg.responseware.production has encryption enabled
+✅ net.turningtechnologiessg.user-settings.production has encryption enabled
+✅ net.turningtechsg.analytics-data.production has encryption enabled
+✅ net.turningtechsg.analytics-workspace.production has encryption enabled
+✅ net.turningtechsg.cdn.production has encryption enabled
+✅ net.turningtechsg.client-access-logs.production has encryption enabled
+✅ net.turningtechsg.elb-logs.production has encryption enabled
+✅ net.turningtechsg.session-file-storage.production has encryption enabled
+✅ public-echoexam-content has encryption enabled
+✅ stroz-vpcflowlogs-cloudtrail-sept23-dec23 has encryption enabled
+✅ terraform-state-echo-pep-production-eu-central-1 has encryption enabled
+✅ terraform-state-echo-pep-production-us-east-1 has encryption enabled
+❌ terraform-state-echo-pep-production1-us-east-1 has NO encryption enabled
+
+
+====================================
+Running check: checks/s3-public-access.sh
+Category: S3
+====================================
+[S3] Checking for publicly accessible buckets...
+✅ Bucket accessories.turningtechnologies.com is private
+✅ Bucket application-load-balance-embargoedcountriesbucket-m7e5def3tc3 is private
+✅ Bucket au.echoexam.app.client.prod is private
+✅ Bucket au.echoexam.cdn.production is private
+✅ Bucket au.echoexam.client-access-logs.production is private
+✅ Bucket aws-config.turning.production.fedramp is private
+✅ Bucket aws-config.turning.production.frankfurt is private
+✅ Bucket aws-waf-migration-turningtech-production is private
+✅ Bucket cf-templates-1dds6kszisu9f-ap-southeast-1 is private
+✅ Bucket cf-templates-1dds6kszisu9f-ap-southeast-2 is private
+✅ Bucket cf-templates-1dds6kszisu9f-eu-central-1 is private
+✅ Bucket cf-templates-1dds6kszisu9f-us-east-1 is private
+✅ Bucket com-turning-elb-polling-rmq is private
+✅ Bucket com-turning-elb-shared-rabbit is private
+✅ Bucket com-turningtech-account-storage-production is private
+✅ Bucket com-turningtech-cloudfront-accesslogging-production is private
+✅ Bucket com-turningtech-knowbly-course-export-production is private
+✅ Bucket com-turningtech-knowbly-widget-export-production is private
+✅ Bucket com-turningtech-maven-production is private
+✅ Bucket com-turningtech-npm-production is private
+✅ Bucket com-turningtech-oriondatabase is private
+✅ Bucket com-turningtech-quicksight-export-production is private
+✅ Bucket com-turningtech-quicksight-export-production-2 is private
+✅ Bucket com-turningtech-teamcity-artifacts-production is private
+✅ Bucket com-turningtech-teamcity-artifacts-production-access-logs is private
+✅ Bucket com-turningtech-user-content-production is private
+✅ Bucket com-turningtech-veeam-backups is private
+✅ Bucket com-turningtech-zamzar-production is private
+✅ Bucket com.echoexam.app.client.prod is private
+✅ Bucket com.echoexam.cdn.production is private
+✅ Bucket com.echoexam.client-access-logs.production is private
+✅ Bucket com.turningtech.account-storage.production is private
+✅ Bucket com.turningtech.account.production is private
+✅ Bucket com.turningtech.admin-storage.production is private
+✅ Bucket com.turningtech.analytics-data.production is private
+✅ Bucket com.turningtech.analytics-storage.production is private
+✅ Bucket com.turningtech.analytics-workspace.production is private
+✅ Bucket com.turningtech.app.client.production is private
+✅ Bucket com.turningtech.aws-config.production is private
+✅ Bucket com.turningtech.cdn.production is private
+✅ Bucket com.turningtech.client-access-logs.production is private
+✅ Bucket com.turningtech.cloud.config.production is private
+✅ Bucket com.turningtech.codedeploy.production is private
+✅ Bucket com.turningtech.content-storage.production is private
+✅ Bucket com.turningtech.devops.production is private
+✅ Bucket com.turningtech.download.production is private
+✅ Bucket com.turningtech.elb-logs.production is private
+✅ Bucket com.turningtech.email.templates.production is private
+✅ Bucket com.turningtech.evc.production is private
+✅ Bucket com.turningtech.lambda.production.ap-southeast-1 is private
+✅ Bucket com.turningtech.lambda.production.ap-southeast-2 is private
+✅ Bucket com.turningtech.lambda.production.eu-central-1 is private
+✅ Bucket com.turningtech.lambda.production.us-standard is private
+✅ Bucket com.turningtech.magento.install.production is private
+✅ Bucket com.turningtech.maintenance.production is private
+✅ Bucket com.turningtech.repository-storage.production is private
+✅ Bucket com.turningtech.responseware.production is private
+✅ Bucket com.turningtech.ses.received.emails.production is private
+✅ Bucket com.turningtech.session-file-storage.production is private
+✅ Bucket com.turningtech.subversion.production is private
+✅ Bucket com.turningtech.turning-cloud.config.production is private
+✅ Bucket com.turningtech.updates.production is private
+✅ Bucket com.turningtech.website.production is private
+✅ Bucket com.turningtech.wordpress.production is private
+✅ Bucket com.turningtechnologies.user-settings.production is private
+✅ Bucket config-bucket-6902au is private
+✅ Bucket config-bucket-6902sg is private
+✅ Bucket connect-b3d114e5f0fa is private
+✅ Bucket cw-syn-results-312977236902-us-east-1 is private
+✅ Bucket datadog-forwarder-forwarderbucket-uwkqcus6tx6n is private
+✅ Bucket dms-cas52irgqiw5jknsld72ohfwbe is private
+✅ Bucket dms-cglutewrprtnqowktx6ridayq4 is private
+✅ Bucket dms-glsvziemljqxxirfujwdhskys6j4cehcntgiofa is private
+✅ Bucket dms-unz6lm4sl3p3pgxwxsfgnlygau is private
+✅ Bucket echo-echo-pep-production-us-east-1-logs is private
+✅ Bucket eu-turningtech-content-production is private
+✅ Bucket eu-turningtech-user-content-production is private
+✅ Bucket eu-turningtech-zamzar-production is private
+✅ Bucket eu-turningtechnologies-account-storage-production is private
+✅ Bucket eu.echoexam.app.client.prod is private
+✅ Bucket eu.echoexam.cdn.production is private
+✅ Bucket eu.echoexam.client-access-logs.production is private
+✅ Bucket eu.turningtech.analytics-data.production is private
+✅ Bucket eu.turningtech.analytics-workspace.production is private
+✅ Bucket eu.turningtech.cdn.production is private
+✅ Bucket eu.turningtech.client-access-logs.production is private
+✅ Bucket eu.turningtech.elb-logs.production is private
+✅ Bucket eu.turningtech.session-file-storage.production is private
+✅ Bucket eu.turningtechnologies.account-storage.production is private
+✅ Bucket eu.turningtechnologies.account.production is private
+✅ Bucket eu.turningtechnologies.admin-storage.production is private
+✅ Bucket eu.turningtechnologies.download.production is private
+✅ Bucket eu.turningtechnologies.erp.production is private
+✅ Bucket eu.turningtechnologies.responseware.production is private
+✅ Bucket eu.turningtechnologies.user-settings.production is private
+✅ Bucket examview-student.com is private
+✅ Bucket imgsrv.turningtechnologies.com is private
+✅ Bucket marketing.turningtechnologies.com is private
+✅ Bucket net-turningtechau-content-production is private
+✅ Bucket net-turningtechau-user-content-production is private
+✅ Bucket net-turningtechau-zamzar-production is private
+✅ Bucket net-turningtechnologiesau-account-storage-production is private
+✅ Bucket net-turningtechnologiessg-account-storage-production is private
+✅ Bucket net-turningtechsg-content-production is private
+✅ Bucket net-turningtechsg-user-content-production is private
+✅ Bucket net-turningtechsg-zamzar-production is private
+✅ Bucket net.turningtechau.analytics-data.production is private
+✅ Bucket net.turningtechau.analytics-workspace.production is private
+✅ Bucket net.turningtechau.cdn.production is private
+✅ Bucket net.turningtechau.client-access-logs.production is private
+✅ Bucket net.turningtechau.elb-logs.production is private
+✅ Bucket net.turningtechau.session-file-storage.production is private
+✅ Bucket net.turningtechnologiesau.account-storage.production is private
+✅ Bucket net.turningtechnologiesau.account.production is private
+✅ Bucket net.turningtechnologiesau.admin-storage.production is private
+✅ Bucket net.turningtechnologiesau.download.production is private
+✅ Bucket net.turningtechnologiesau.erp.production is private
+✅ Bucket net.turningtechnologiesau.responseware.production is private
+✅ Bucket net.turningtechnologiesau.user-settings.production is private
+✅ Bucket net.turningtechnologiessg.account-storage.production is private
+✅ Bucket net.turningtechnologiessg.account.production is private
+✅ Bucket net.turningtechnologiessg.admin-storage.production is private
+✅ Bucket net.turningtechnologiessg.download.production is private
+✅ Bucket net.turningtechnologiessg.erp.production is private
+✅ Bucket net.turningtechnologiessg.responseware.production is private
+✅ Bucket net.turningtechnologiessg.user-settings.production is private
+✅ Bucket net.turningtechsg.analytics-data.production is private
+✅ Bucket net.turningtechsg.analytics-workspace.production is private
+✅ Bucket net.turningtechsg.cdn.production is private
+✅ Bucket net.turningtechsg.client-access-logs.production is private
+✅ Bucket net.turningtechsg.elb-logs.production is private
+✅ Bucket net.turningtechsg.session-file-storage.production is private
+✅ Bucket public-echoexam-content is private
+✅ Bucket stroz-vpcflowlogs-cloudtrail-sept23-dec23 is private
+✅ Bucket terraform-state-echo-pep-production-eu-central-1 is private
+✅ Bucket terraform-state-echo-pep-production-us-east-1 is private
+✅ Bucket terraform-state-echo-pep-production1-us-east-1 is private
+✅ Bucket turning-sre-assets is private
+✅ Bucket vpad-web.com is private
+✅ Bucket www.examview-student.com is private
+✅ Bucket www.vpad-web.com is private
+✅ Bucket youngstown-storage-gateway-volume is private
+
+
+🔍 Scan complete. 18 checks run.
+[0;32m✅ 10 Passed[0m, [0;31m❌ 8 Failed[0m
+🔧 Timestamp: 2025-04-25 17:13:58 UTC
+
+📊 Failures by Category:
+  • Cloudtrail: 0 / 2 failed
+  • ELBv2: 0 / 2 failed
+  • EC2: 0 / 2 failed
+  • IAM: 0 / 4 failed
+  • RDS: 0 / 3 failed
+  • GuardDuty: 0 / 1 failed
+  • S3: 0 / 3 failed
+  • ELB: 0 / 1 failed

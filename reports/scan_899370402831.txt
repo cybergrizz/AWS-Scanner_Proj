@@ -1,0 +1,765 @@
+
+====================================
+Running check: checks/cloudtrail-enabled.sh
+Category: Cloudtrail
+====================================
+[CloudTrail] Checking if CloudTrail is enabled in this region...
+❌ No CloudTrails found in this region
+
+
+====================================
+Running check: checks/cloudtrail-log-encryption.sh
+Category: Cloudtrail
+====================================
+[CloudTrail] Checking if logs are encrypted with KMS...
+ℹ️  No CloudTrails found
+
+
+====================================
+Running check: checks/ec2-port22-open.sh
+Category: EC2
+====================================
+[EC2] Checking for Security Groups with port 22 open...
+✅ sg-2ac97750 does NOT expose port 22 publicly
+✅ sg-00e3ab72685ac31fe does NOT expose port 22 publicly
+✅ sg-8f90f7ea does NOT expose port 22 publicly
+✅ sg-5cf1a927 does NOT expose port 22 publicly
+✅ sg-0d12eb73 does NOT expose port 22 publicly
+✅ sg-ae17eed0 does NOT expose port 22 publicly
+✅ sg-09c5bc40e73a3660d does NOT expose port 22 publicly
+✅ sg-f1e66789 does NOT expose port 22 publicly
+✅ sg-e5f1a99e does NOT expose port 22 publicly
+✅ sg-07def7b70e1ff6d25 does NOT expose port 22 publicly
+✅ sg-6bc19910 does NOT expose port 22 publicly
+✅ sg-bd4a5dc7 does NOT expose port 22 publicly
+✅ sg-00598e6bde169f338 does NOT expose port 22 publicly
+✅ sg-36ac5449 does NOT expose port 22 publicly
+✅ sg-0c3c3a152d3f23697 does NOT expose port 22 publicly
+✅ sg-0c232b267030d45c7 does NOT expose port 22 publicly
+✅ sg-0fb6cb37a5e1aa527 does NOT expose port 22 publicly
+✅ sg-fca34c84 does NOT expose port 22 publicly
+✅ sg-0572203db3d0d9257 does NOT expose port 22 publicly
+✅ sg-0b68427bd2d9b0e72 does NOT expose port 22 publicly
+✅ sg-0e080a25e1d47a542 does NOT expose port 22 publicly
+✅ sg-0c4d608756b37252c does NOT expose port 22 publicly
+✅ sg-35ac544a does NOT expose port 22 publicly
+✅ sg-ffe66787 does NOT expose port 22 publicly
+✅ sg-35c9774f does NOT expose port 22 publicly
+✅ sg-0702f0bb9e373b062 does NOT expose port 22 publicly
+✅ sg-00ba35d807d796a34 does NOT expose port 22 publicly
+✅ sg-0da84f8c0a7c16ccf does NOT expose port 22 publicly
+✅ sg-f1a34c89 does NOT expose port 22 publicly
+✅ sg-51f1a92a does NOT expose port 22 publicly
+✅ sg-024d518e6b67beeda does NOT expose port 22 publicly
+✅ sg-0da6ccb1050b45912 does NOT expose port 22 publicly
+✅ sg-0a22d5576daa287d0 does NOT expose port 22 publicly
+✅ sg-644d5a1e does NOT expose port 22 publicly
+✅ sg-01349726434dc7189 does NOT expose port 22 publicly
+✅ sg-da0183a4 does NOT expose port 22 publicly
+✅ sg-f47dff8a does NOT expose port 22 publicly
+✅ sg-ef9ff88a does NOT expose port 22 publicly
+✅ sg-c5581bb8 does NOT expose port 22 publicly
+✅ sg-09dc714e844976f89 does NOT expose port 22 publicly
+✅ sg-0fbe530ed40c2120f does NOT expose port 22 publicly
+✅ sg-c39801a7 does NOT expose port 22 publicly
+✅ sg-e107b787 does NOT expose port 22 publicly
+✅ sg-57f1a92c does NOT expose port 22 publicly
+✅ sg-03fdb0d0a58004200 does NOT expose port 22 publicly
+✅ sg-235f1c5e does NOT expose port 22 publicly
+✅ sg-09ec8547acb6d8561 does NOT expose port 22 publicly
+✅ sg-01df2f2bf086a4fe6 does NOT expose port 22 publicly
+✅ sg-52f1a929 does NOT expose port 22 publicly
+✅ sg-50f1a92b does NOT expose port 22 publicly
+✅ sg-02c41096095f5ae6c does NOT expose port 22 publicly
+✅ sg-01c0b36c18cdf7b10 does NOT expose port 22 publicly
+✅ sg-08716fa58c3f1720f does NOT expose port 22 publicly
+✅ sg-058e15ddd64b3233d does NOT expose port 22 publicly
+✅ sg-ee9ff88b does NOT expose port 22 publicly
+❌ sg-e4f1a99f has port 22 open to the world
+✅ sg-fea34c86 does NOT expose port 22 publicly
+✅ sg-38ac5447 does NOT expose port 22 publicly
+✅ sg-eed78f9b does NOT expose port 22 publicly
+✅ sg-8fb2d9fe does NOT expose port 22 publicly
+❌ sg-0a8fa1a2c9febedd6 has port 22 open to the world
+✅ sg-03bc36f9bfaf4c0ff does NOT expose port 22 publicly
+✅ sg-0d4121d48e74fcedf does NOT expose port 22 publicly
+
+
+====================================
+Running check: checks/ec2-port3389-open.sh
+Category: EC2
+====================================
+[EC2] Checking for Security Groups with port 3389 (RDP) open...
+✅ SG sg-2ac97750 is locked down for RDP
+✅ SG sg-00e3ab72685ac31fe is locked down for RDP
+✅ SG sg-8f90f7ea is locked down for RDP
+✅ SG sg-5cf1a927 is locked down for RDP
+✅ SG sg-0d12eb73 is locked down for RDP
+✅ SG sg-ae17eed0 is locked down for RDP
+✅ SG sg-09c5bc40e73a3660d is locked down for RDP
+✅ SG sg-f1e66789 is locked down for RDP
+✅ SG sg-e5f1a99e is locked down for RDP
+✅ SG sg-07def7b70e1ff6d25 is locked down for RDP
+✅ SG sg-6bc19910 is locked down for RDP
+✅ SG sg-bd4a5dc7 is locked down for RDP
+✅ SG sg-00598e6bde169f338 is locked down for RDP
+✅ SG sg-36ac5449 is locked down for RDP
+✅ SG sg-0c3c3a152d3f23697 is locked down for RDP
+✅ SG sg-0c232b267030d45c7 is locked down for RDP
+✅ SG sg-0fb6cb37a5e1aa527 is locked down for RDP
+✅ SG sg-fca34c84 is locked down for RDP
+✅ SG sg-0572203db3d0d9257 is locked down for RDP
+✅ SG sg-0b68427bd2d9b0e72 is locked down for RDP
+✅ SG sg-0e080a25e1d47a542 is locked down for RDP
+✅ SG sg-0c4d608756b37252c is locked down for RDP
+✅ SG sg-35ac544a is locked down for RDP
+✅ SG sg-ffe66787 is locked down for RDP
+✅ SG sg-35c9774f is locked down for RDP
+✅ SG sg-0702f0bb9e373b062 is locked down for RDP
+✅ SG sg-00ba35d807d796a34 is locked down for RDP
+✅ SG sg-0da84f8c0a7c16ccf is locked down for RDP
+✅ SG sg-f1a34c89 is locked down for RDP
+✅ SG sg-51f1a92a is locked down for RDP
+✅ SG sg-024d518e6b67beeda is locked down for RDP
+✅ SG sg-0da6ccb1050b45912 is locked down for RDP
+✅ SG sg-0a22d5576daa287d0 is locked down for RDP
+✅ SG sg-644d5a1e is locked down for RDP
+✅ SG sg-01349726434dc7189 is locked down for RDP
+✅ SG sg-da0183a4 is locked down for RDP
+✅ SG sg-f47dff8a is locked down for RDP
+✅ SG sg-ef9ff88a is locked down for RDP
+✅ SG sg-c5581bb8 is locked down for RDP
+✅ SG sg-09dc714e844976f89 is locked down for RDP
+✅ SG sg-0fbe530ed40c2120f is locked down for RDP
+✅ SG sg-c39801a7 is locked down for RDP
+✅ SG sg-e107b787 is locked down for RDP
+✅ SG sg-57f1a92c is locked down for RDP
+✅ SG sg-03fdb0d0a58004200 is locked down for RDP
+✅ SG sg-235f1c5e is locked down for RDP
+✅ SG sg-09ec8547acb6d8561 is locked down for RDP
+✅ SG sg-01df2f2bf086a4fe6 is locked down for RDP
+✅ SG sg-52f1a929 is locked down for RDP
+✅ SG sg-50f1a92b is locked down for RDP
+✅ SG sg-02c41096095f5ae6c is locked down for RDP
+✅ SG sg-01c0b36c18cdf7b10 is locked down for RDP
+✅ SG sg-08716fa58c3f1720f is locked down for RDP
+✅ SG sg-058e15ddd64b3233d is locked down for RDP
+✅ SG sg-ee9ff88b is locked down for RDP
+✅ SG sg-e4f1a99f is locked down for RDP
+✅ SG sg-fea34c86 is locked down for RDP
+✅ SG sg-38ac5447 is locked down for RDP
+✅ SG sg-eed78f9b is locked down for RDP
+✅ SG sg-8fb2d9fe is locked down for RDP
+✅ SG sg-0a8fa1a2c9febedd6 is locked down for RDP
+✅ SG sg-03bc36f9bfaf4c0ff is locked down for RDP
+✅ SG sg-0d4121d48e74fcedf is locked down for RDP
+
+
+====================================
+Running check: checks/elb-logging.sh
+Category: ELB
+====================================
+[ELB] Checking for ELBs without access logging enabled...
+
+
+====================================
+Running check: checks/elbv2-https.sh
+Category: ELBv2
+====================================
+[ELBv2] Checking for HTTP-only listeners (unencrypted traffic)...
+❌ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/prod-us-east-1-services-alb/8d40cea72208cbef is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/presto-prod-us-east-1/b74ec404c6943426 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/influxdb-prod-us-east-1/e8b86a9f1c0fc7f5 is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/migrations-alp-alb/08d17e10474a975e is using an unencrypted HTTP listener
+❌ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/alp-alb/ee8b3288ad81f010 is using an unencrypted HTTP listener
+
+
+====================================
+Running check: checks/elbv2-tls-policy.sh
+Category: ELBv2
+====================================
+[ELBv2] Checking TLS policy strength on HTTPS listeners...
+✅ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/prod-us-east-1-services-alb/8d40cea72208cbef uses secure TLS policy: ELBSecurityPolicy-TLS-1-2-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/prod-us-east-1-external-alb/7d2cfc7516c56f3e uses secure TLS policy: ELBSecurityPolicy-TLS-1-2-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/influxdb-prod-us-east-1/e8b86a9f1c0fc7f5 uses secure TLS policy: ELBSecurityPolicy-TLS-1-2-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/migrations-alp-alb/08d17e10474a975e uses secure TLS policy: ELBSecurityPolicy-TLS-1-2-2017-01
+✅ arn:aws:elasticloadbalancing:us-east-1:899370402831:loadbalancer/app/alp-alb/ee8b3288ad81f010 uses secure TLS policy: ELBSecurityPolicy-TLS-1-2-2017-01
+
+
+====================================
+Running check: checks/guardduty-enabled.sh
+Category: GuardDuty
+====================================
+[GuardDuty] Checking if GuardDuty is enabled...
+✅ GuardDuty is enabled (Detector ID: dec2e801b7cca8a494a0c2cc30c1f5cd)
+
+
+====================================
+Running check: checks/iam-inline-policies.sh
+Category: IAM
+====================================
+[IAM] Checking for IAM entities with inline policies...
+❌ User ca-central-cloudsearch has inline policies: ca-central-allow-domain-creation	ca-central-describe-domains
+❌ User device-upload-download_ap-southeast-2 has inline policies: get-federation-token	s3-download	s3-upload
+❌ User device-upload-download_ca-central-1 has inline policies: get-federation-token	s3-download	s3-upload
+❌ User device-upload-download_eu-west-1 has inline policies: get-federation-token	s3-download	s3-upload
+❌ User device-upload-download_us-east-1 has inline policies: get-federation-token	s3-download	s3-upload
+❌ User filestack-uploader has inline policies: filestack-s3-access
+❌ User folder-s3-clone-delete_ap-southeast-2 has inline policies: get-federation-token-folder	s3-download-folder	s3-upload-folder-ca
+❌ User folder-s3-clone-delete_ca-central-1 has inline policies: get-federation-token-folder	s3-download-folder	s3-upload-folder-ca
+❌ User folder-s3-clone-delete_eu-west-1 has inline policies: get-federation-token-folder-eu	s3-download-folder-eu	s3-upload-folder-eu
+❌ User folder-s3-clone-delete_us-east-1 has inline policies: get-federation-token-folder	s3-download-folder	s3-upload-folder-ca
+❌ Role alp-support-tool-data-export has inline policies: ckelly-temp-bucket	DynamoDb-Allow-All	S3_Sink_Cleanup
+❌ Role AmazonSSMRoleForAutomationAssumeQuickSetup has inline policies: SsmOnboardingInlinePolicy
+❌ Role aws-opsworks-ec2-role has inline policies: DataPipelineDefaultResourceRole_Policy_v2
+❌ Role aws-opsworks-ec2-role.1402425695516 has inline policies: policygen-aws-opsworks-ec2-role.1402425695516-201508141835	prebuilt-s3-aws-opsworks-role	ReadWrite-org-echo360-alpprod-us-east-access-logs
+❌ Role aws-opsworks-service-role has inline policies: aws-opsworks-service-policy
+❌ Role AWSCloudFormationStackSetExecutionRole has inline policies: AssumeRole-AWSCloudFormationStackSetExecutionRole
+❌ Role AWSReservedSSO_AdministratorAccess_f5821bf4c9e7db1c has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Business-Development_009e518514a100d2 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_CaptureTeam_c365de2f6c47c60f has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_CorporateIT_c5b35b0124e111b0 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Engineering_0a27c98b65f7738c has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Finance_9311993e72ce78cf has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_global_logging_monitoring_e6e0b227421a98a9 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Read-only_788168389245d17a has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_SRETeam_e64dc441b1e95b74 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Support_173e38579f6f4b7e has inline policies: AwsSSOInlinePolicy
+❌ Role AWSServiceRoleForCloudTrail has inline policies: CloudTrailPolicyForCloudWatchLogs_d0e9d1f0-8cd5-44cb-96f2-c93704f8bcfb
+❌ Role CloudTrail_CloudWatchLogs_Role has inline policies: oneClick_CloudTrail_CloudWatchLogs_Role_1467383609458	oneClick_CloudTrail_CloudWatchLogs_Role_1467393992024	oneClick_CloudTrail_CloudWatchLogs_Role_1467394145057	oneClick_CloudTrail_CloudWatchLogs_Role_1497553590860	oneClick_CloudTrail_CloudWatchLogs_Role_1498506420177	oneClick_CloudTrail_CloudWatchLogs_Role_1498507698075
+❌ Role conversion-job-message_ap-southeast-2 has inline policies: send-cjm_jobs-pre-process-conversion-queue
+❌ Role conversion-job-message_eu-west-1 has inline policies: send-cjm_jobs-pre-process-conversion-queue
+❌ Role conversion-job-message_us-east-1 has inline policies: send-cjm_jobs-pre-process-conversion-queue
+❌ Role DatadogAWSIntegrationRole has inline policies: Datadog_Cloudtrail_Access
+❌ Role DataPipelineDefaultResourceRole has inline policies: DataPipelineDefaultResourceRole_Policy_v2
+❌ Role DataPipelineDefaultRole has inline policies: DataPipelineDefaultRole_Policy_v2
+❌ Role device-offline-email_us-east-1 has inline policies: device-offline-email_dynamodb	device-offline-email_logs	device-offline-email_ses	device-offline-email_simpledb
+❌ Role ecsInstanceRole has inline policies: policy-ecs-bss-DynamoDB
+❌ Role ecsServiceRole has inline policies: oneClick_ecsServiceRole_1442009520054
+❌ Role Elastic_Transcoder_Default_Role has inline policies: ets-console-generated-policy
+❌ Role EMR_DefaultRole has inline policies: EMR_DefaultRole
+❌ Role EMR_EC2_DefaultRole has inline policies: EMR_EC2_DefaultRole
+❌ Role fgw has inline policies: AdministratorAccess-fgw-201302191353	sqs_echo360cloud-net
+❌ Role FilePicker has inline policies: policygen-FilePicker-201407171355
+❌ Role Flow-Logs-Role has inline policies: Flow-Logs
+❌ Role frt has inline policies: admin-frt	dynamo-frt
+❌ Role hbr has inline policies: admin
+❌ Role ids has inline policies: AdministratorAccess-ids-201303191216	AmazonDynamoDBFullAccess-ids-201303191216
+❌ Role lambda_basic_execution has inline policies: oneClick_lambda_basic_execution_1446053800317
+❌ Role lct has inline policies: AdministratorAccess-lct-201304021000
+❌ Role log-partitioner-role has inline policies: access_logs_policy
+❌ Role lps-wowza_ap-southeast-2 has inline policies: read-streaming-bucket	write-access-logs-bucket
+❌ Role lps-wowza_ca-central-1 has inline policies: read-streaming-bucket	write-access-logs-bucket
+❌ Role lps-wowza_eu-west-1 has inline policies: read-streaming-bucket	write-access-logs-bucket
+❌ Role lps-wowza_us-east-1 has inline policies: read-streaming-bucket	write-access-logs-bucket
+❌ Role lte has inline policies: AdministratorAccess-lte-201303211021
+❌ Role ltp has inline policies: ltp
+❌ Role lts has inline policies: AdministratorAccess-lts-201303211021
+❌ Role ltv has inline policies: AdministratorAccess-ltv-201304030933	AmazonS3FullAccess-ltv-201304030934
+❌ Role LucidscaleImportRole has inline policies: LucidImportPolicy
+❌ Role media-processor_ap-southeast-2 has inline policies: ec2-describe-instances	ec2-tags	mp_TegrityConversion	prebuilt-s3-permissions	read-conversion-bucket	read-mp-bucket	read-upload-bucket	read-write-branding-bucket	receive-cjm_jobs-pre-process-conversion-queue	receive-jobs-branding-queue	receive-jobs-conversion-queue	receive-jobs-presentation-queue	receive-jobs-video-queue	receive-jobs-video-tracked-queue	send-jobs-status-queue	write-content-bucket	write-content-failed-bucket
+❌ Role media-processor_ca-central-1 has inline policies: ec2-describe-instances	ec2-tags	mp_tegrity-conversion-domain	prebuilt-S3-permissions	read-conversion-bucket	read-mp-bucket	read-upload-bucket	read-write-branding-bucket	receive-cjm_jobs-pre-process-conversion-queue	receive-jobs-branding-queue	receive-jobs-conversion-queue	receive-jobs-presentation-queue	receive-jobs-video-queue	receive-jobs-video-tracked-queue	send-jobs-status-queue	write-content-bucket	write-content-failed-bucket
+❌ Role media-processor_eu-west-1 has inline policies: ec2-describe-instances	ec2-tags	mp_TegrityConversion	prebuilt-S3-permissions	read-conversion-bucket	read-mp-bucket	read-upload-bucket	read-write-branding-bucket	receive-cjm_jobs-pre-process-conversion-queue	receive-jobs-branding-queue	receive-jobs-conversion-queue	receive-jobs-presentation-queue	receive-jobs-video-queue	receive-jobs-video-tracked-queue	send-jobs-status-queue	write-content-bucket	write-content-failed-bucket
+❌ Role media-processor_us-east-1 has inline policies: ec2-describe-instances	ec2-tags	mp_tegrity-conversion-domain	prebuilt-S3-permissions	read-conversion-bucket	read-mp-bucket	read-upload-bucket	read-write-branding-bucket	receive-cjm_jobs-pre-process-conversion-queue	receive-jobs-branding-queue	receive-jobs-conversion-queue	receive-jobs-presentation-queue	receive-jobs-video-queue	receive-jobs-video-tracked-queue	send-jobs-status-queue	write-content-bucket	write-content-failed-bucket
+❌ Role MGMT has inline policies: AdministratorAccess-MGMT-201310231241	AmazonS3FullAccess-MGMT-201311051145
+❌ Role ops has inline policies: AdministratorAccess-ops-201301311454
+❌ Role phx has inline policies: AdministratorAccess-phx-201304160950
+❌ Role rancher-host has inline policies: ALPSecretsManagerFullAccess	AthenaFullAccess	CloudfrontWowzaOriginRequestLambdaEdge	Full_Access_Route53_and_Route53Domains	GlueFullAccess	LambdaFullAccess	OpsWorksFullAccess	TranscribeFullAccess
+❌ Role S3Batch has inline policies: PublishableMedia_Tagging
+❌ Role serverlessrepo-AthenaDynamoDBC-ConnectorConfigRole-8T175PE26DU8 has inline policies: ConnectorConfigRolePolicy0	ConnectorConfigRolePolicy1
+❌ Role snowball-import-s3-only-role has inline policies: oneClick_snowball-import-s3-only-role_1487354128559	oneClick_snowball-import-s3-only-role_1490911212443
+❌ Role SNSFailureFeedback has inline policies: oneClick_SNSFailureFeedback_1692617693042
+❌ Role SNSSuccessFeedback has inline policies: oneClick_SNSSuccessFeedback_1692617693041
+❌ Role uq-migration-s3-role-prod has inline policies: uq-migration-s3-policy-prod
+❌ Role VPC-LPS has inline policies: AdministratorAccess	AmazonS3FullAccess
+❌ Role VulnScanReadOnly has inline policies: VulnScanReadOnlyPolicy
+❌ Role webapp-ca-central-1 has inline policies: alp-targetgroup-registration	ALPSecretReadOnlyAccess	AutoScalingFullAccess
+❌ Role webapp_ap-southeast-2 has inline policies: alp-targetgroup-registration	ALPSecretReadOnlyAccess	AutoScalingFullAccess
+❌ Role webapp_eu-west-1 has inline policies: alp-targetgroup-registration	ALPSecretReadOnlyAccess	AutoScalingFullAccess
+❌ Role webapp_us-east-1 has inline policies: alp-targetgroup-registration	ALPSecretReadOnlyAccess	AutoScalingFullAccess
+❌ Role workspaces_DefaultRole has inline policies: SkyLightSelfServiceAccess	SkyLightServiceAccess
+❌ Group BuildAgentManagers has inline policies: BuildAgentManagement
+❌ Group BuildArtifactCreators has inline policies: BuildArtifactCreation
+
+
+====================================
+Running check: checks/iam-no-mfa.sh
+Category: IAM
+====================================
+[IAM] Checking for users without MFA...
+❌ alp-support-tool-user has NO MFA enabled
+❌ ca-central-cloudsearch has NO MFA enabled
+❌ ci-hostedops-resources-writer has NO MFA enabled
+❌ datalake has NO MFA enabled
+❌ device-upload-download_ap-southeast-2 has NO MFA enabled
+❌ device-upload-download_ca-central-1 has NO MFA enabled
+❌ device-upload-download_eu-west-1 has NO MFA enabled
+❌ device-upload-download_us-east-1 has NO MFA enabled
+❌ filestack-uploader has NO MFA enabled
+❌ folder-s3-clone-delete_ap-southeast-2 has NO MFA enabled
+❌ folder-s3-clone-delete_ca-central-1 has NO MFA enabled
+❌ folder-s3-clone-delete_eu-west-1 has NO MFA enabled
+❌ folder-s3-clone-delete_us-east-1 has NO MFA enabled
+❌ Geckoboard has NO MFA enabled
+❌ Grafana has NO MFA enabled
+❌ Jenkins has NO MFA enabled
+❌ Looker-Athena has NO MFA enabled
+❌ Rancher has NO MFA enabled
+
+
+====================================
+Running check: checks/iam-old-access-keys.sh
+Category: IAM
+====================================
+[IAM] Checking for access keys older than 90 days...
+⚠️  Could not parse timestamp for AKIA5CZVHIQH3AM27YGX
+⚠️  Could not parse timestamp for AKIA5CZVHIQH7NB5RVEN
+⚠️  Could not parse timestamp for AKIAJ7Y72POIG4SELT4Q
+⚠️  Could not parse timestamp for AKIA5CZVHIQHSIWI55EU
+⚠️  Could not parse timestamp for AKIA5CZVHIQHUGQCOEGW
+⚠️  Could not parse timestamp for AKIA5CZVHIQH6HKWLG5T
+⚠️  Could not parse timestamp for AKIA5CZVHIQHWU6GTSUQ
+⚠️  Could not parse timestamp for AKIA5CZVHIQHWYINQLEQ
+⚠️  Could not parse timestamp for AKIA5CZVHIQHSL5YNWPU
+⚠️  Could not parse timestamp for AKIA5CZVHIQH3PPV7ANX
+⚠️  Could not parse timestamp for AKIA5CZVHIQH3BH4VZXU
+⚠️  Could not parse timestamp for AKIA5CZVHIQH6VSSQECB
+⚠️  Could not parse timestamp for AKIA5CZVHIQHTR4BYUEY
+⚠️  Could not parse timestamp for AKIA5CZVHIQHVACR4YUQ
+⚠️  Could not parse timestamp for AKIA5CZVHIQH2AL2XXAL
+⚠️  Could not parse timestamp for AKIA5CZVHIQHYSWFD64S
+⚠️  Could not parse timestamp for AKIA5CZVHIQHXYYVAEHQ
+⚠️  Could not parse timestamp for AKIAIWD3QPHHWRX22FDQ
+⚠️  Could not parse timestamp for AKIA5CZVHIQH6W227DFD
+⚠️  Could not parse timestamp for AKIA5CZVHIQH67MEDDZ4
+⚠️  Could not parse timestamp for AKIA5CZVHIQH3FOYEG7J
+⚠️  Could not parse timestamp for AKIA5CZVHIQHZHKWSAXY
+
+
+====================================
+Running check: checks/iam-root-mfa.sh
+Category: IAM
+====================================
+[IAM] Checking if root account has MFA enabled...
+✅ Root account has MFA enabled
+
+
+====================================
+Running check: checks/rds-backups.sh
+Category: RDS
+====================================
+[RDS] Checking for RDS databases without automated backups...
+✅ analytics has backups enabled (retention: 7 days)
+❌ analytics-ro-1 has NO automated backups enabled
+✅ api-gateway-kong has backups enabled (retention: 7 days)
+✅ authz-db-1b has backups enabled (retention: 35 days)
+✅ authz-db-1d has backups enabled (retention: 35 days)
+✅ service-db-cluster2 has backups enabled (retention: 35 days)
+✅ services-db-1b has backups enabled (retention: 35 days)
+✅ services-db-1d has backups enabled (retention: 35 days)
+
+
+====================================
+Running check: checks/rds-encryption.sh
+Category: RDS
+====================================
+[RDS] Checking for unencrypted RDS databases...
+✅ analytics is encrypted
+✅ analytics-ro-1 is encrypted
+✅ api-gateway-kong is encrypted
+❌ authz-db-1b is NOT encrypted
+❌ authz-db-1d is NOT encrypted
+✅ service-db-cluster2 is encrypted
+✅ services-db-1b is encrypted
+✅ services-db-1d is encrypted
+
+
+====================================
+Running check: checks/rds-public.sh
+Category: RDS
+====================================
+[RDS] Checking for publicly accessible RDS databases...
+✅ analytics is private
+✅ analytics-ro-1 is private
+✅ api-gateway-kong is private
+✅ authz-db-1b is private
+✅ authz-db-1d is private
+✅ service-db-cluster2 is private
+✅ services-db-1b is private
+✅ services-db-1d is private
+
+
+====================================
+Running check: checks/s3-block-public-access.sh
+Category: S3
+====================================
+[S3] Checking for buckets missing Block Public Access settings...
+❌ athena-test-echo360 does NOT have Block Public Access settings configured
+
+
+====================================
+Running check: checks/s3-bucket-encryption.sh
+Category: S3
+====================================
+[S3] Checking for buckets without default encryption...
+✅ athena-test-echo360 has encryption enabled
+✅ athena-test-echo360-ap-southeast-2 has encryption enabled
+✅ athena-test-echo360-ca-central-1 has encryption enabled
+✅ athena-test-echo360-eu-west-1 has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-access-logs has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-benchmark has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-branding has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-branding-temp has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-capture-client-software has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-conversion has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-credentials has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-device-logs has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-device-upload has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-download has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-filepicker has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-inventory has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-migration-data has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-monitor has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-mp has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-stream has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-upload has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-upload-failed has encryption enabled
+✅ au-org-echo360-alpprod-ap-southeast-upload-temp has encryption enabled
+✅ au-org-echo360-alpprod-terraform has encryption enabled
+✅ au-org-echo360-app has encryption enabled
+✅ au-org-echo360-caption has encryption enabled
+✅ au-org-echo360-cur-athena has encryption enabled
+✅ au-org-echo360-datadog-logs has encryption enabled
+✅ au-org-echo360-elb-logs has encryption enabled
+✅ au-org-echo360-lambda has encryption enabled
+✅ au-org-echo360-prod-ap-southeast-2-data-exports has encryption enabled
+✅ au-org-echo360-prod-ap-southeast-2-data-imports has encryption enabled
+✅ aws-athena-query-results-899370402831-ap-southeast-2 has encryption enabled
+✅ aws-athena-query-results-899370402831-ca-central-1 has encryption enabled
+✅ aws-athena-query-results-899370402831-eu has encryption enabled
+✅ aws-athena-query-results-899370402831-eu-west-1 has encryption enabled
+✅ aws-athena-query-results-899370402831-us-east-1 has encryption enabled
+✅ aws-cloudtrail-logs-899370402831-2ec8a49a has encryption enabled
+✅ aws-logs-899370402831-ap-southeast-2 has encryption enabled
+✅ aws-logs-899370402831-ca-central-1 has encryption enabled
+✅ aws-logs-899370402831-eu-west-1 has encryption enabled
+✅ aws-logs-899370402831-us-east-1 has encryption enabled
+✅ ca-echo360-alp-prd-assets has encryption enabled
+✅ ca-echo360-alp-prd-configs has encryption enabled
+✅ ca-echo360-alp-prd-images has encryption enabled
+✅ ca-echo360-alpprod-ca-central-access-logs has encryption enabled
+✅ ca-echo360-alpprod-ca-central-branding has encryption enabled
+✅ ca-echo360-alpprod-ca-central-branding-temp has encryption enabled
+✅ ca-echo360-alpprod-ca-central-capture-client-software has encryption enabled
+✅ ca-echo360-alpprod-ca-central-conversion has encryption enabled
+✅ ca-echo360-alpprod-ca-central-credentials has encryption enabled
+✅ ca-echo360-alpprod-ca-central-device-logs has encryption enabled
+✅ ca-echo360-alpprod-ca-central-device-upload has encryption enabled
+✅ ca-echo360-alpprod-ca-central-download has encryption enabled
+✅ ca-echo360-alpprod-ca-central-ecs-config has encryption enabled
+✅ ca-echo360-alpprod-ca-central-filepicker has encryption enabled
+✅ ca-echo360-alpprod-ca-central-inventory has encryption enabled
+✅ ca-echo360-alpprod-ca-central-migration-data has encryption enabled
+✅ ca-echo360-alpprod-ca-central-migration-fix-backup has encryption enabled
+✅ ca-echo360-alpprod-ca-central-monitor has encryption enabled
+✅ ca-echo360-alpprod-ca-central-mp has encryption enabled
+✅ ca-echo360-alpprod-ca-central-stream has encryption enabled
+✅ ca-echo360-alpprod-ca-central-upload has encryption enabled
+✅ ca-echo360-alpprod-ca-central-upload-failed has encryption enabled
+✅ ca-echo360-alpprod-ca-central-upload-temp has encryption enabled
+✅ ca-echo360-alpprod-terraform has encryption enabled
+✅ ca-echo360-app has encryption enabled
+✅ ca-echo360-caption has encryption enabled
+✅ ca-echo360-cur-athena has encryption enabled
+✅ ca-echo360-datadog-logs has encryption enabled
+✅ ca-echo360-elb-logs has encryption enabled
+✅ ca-echo360-lambda has encryption enabled
+✅ ca-echo360-prod-ca-central-1-data-exports has encryption enabled
+✅ ca-echo360-prod-ca-central-1-data-imports has encryption enabled
+✅ ca-org-echo360-elb-logs has encryption enabled
+✅ ckelly-temp has encryption enabled
+✅ colin-cf-geoip has encryption enabled
+✅ columbia-snowball-migration has encryption enabled
+✅ config-bucket-899370402831 has encryption enabled
+✅ cw-syn-results-899370402831-ap-southeast-2 has encryption enabled
+✅ cw-syn-results-899370402831-ca-central-1 has encryption enabled
+✅ cw-syn-results-899370402831-eu-west-1 has encryption enabled
+✅ cw-syn-results-899370402831-us-east-1 has encryption enabled
+✅ e360-alpprod-syslog has encryption enabled
+✅ echo360-docker-images has encryption enabled
+✅ echo360-prod-ap-southeast-2-ddmetrics-deadletter has encryption enabled
+✅ echo360-prod-ap-southeast-2-logs has encryption enabled
+✅ echo360-prod-ap-southeast-2-raw-analytics has encryption enabled
+✅ echo360-prod-ap-southeast-2-terraform-state has encryption enabled
+✅ echo360-prod-ca-central-1-ddmetrics-deadletter has encryption enabled
+✅ echo360-prod-ca-central-1-logs has encryption enabled
+✅ echo360-prod-ca-central-1-raw-analytics has encryption enabled
+✅ echo360-prod-ca-central-1-terraform-state has encryption enabled
+✅ echo360-prod-eu-west-1-ddmetrics-deadletter has encryption enabled
+✅ echo360-prod-eu-west-1-logs has encryption enabled
+✅ echo360-prod-eu-west-1-raw-analytics has encryption enabled
+✅ echo360-prod-eu-west-1-terraform-state has encryption enabled
+✅ echo360-prod-us-east-1-ddmetrics-deadletter has encryption enabled
+✅ echo360-prod-us-east-1-logs has encryption enabled
+✅ echo360-prod-us-east-1-raw-analytics has encryption enabled
+✅ echo360-prod-us-east-1-terraform-state has encryption enabled
+✅ echo360prod-datastats has encryption enabled
+✅ elasticbeanstalk-us-east-1-899370402831 has encryption enabled
+✅ emr-scripts-prod.ap-southeast-2 has encryption enabled
+✅ emr-scripts-prod.ca-central-1 has encryption enabled
+✅ emr-scripts-prod.eu-west-1 has encryption enabled
+✅ emr-scripts-prod.us-east-1 has encryption enabled
+✅ engagehelp.echo360.org has encryption enabled
+✅ eubucketmonitoring has encryption enabled
+✅ help.echo360.org has encryption enabled
+✅ hostedops-resources has encryption enabled
+✅ hostedops-resources-ca-central-1 has encryption enabled
+✅ org-echo360-alp-prd-logs has encryption enabled
+✅ org-echo360-alpprod-ap-southeast-emr has encryption enabled
+✅ org-echo360-alpprod-ap-southeast-folder has encryption enabled
+✅ org-echo360-alpprod-ca-central-folder has encryption enabled
+✅ org-echo360-alpprod-cloudtrail has encryption enabled
+✅ org-echo360-alpprod-eu-west-folder has encryption enabled
+✅ org-echo360-alpprod-terraform has encryption enabled
+✅ org-echo360-alpprod-us-east-access-logs has encryption enabled
+✅ org-echo360-alpprod-us-east-branding has encryption enabled
+✅ org-echo360-alpprod-us-east-branding-temp has encryption enabled
+✅ org-echo360-alpprod-us-east-capture-client-software has encryption enabled
+✅ org-echo360-alpprod-us-east-conversion has encryption enabled
+✅ org-echo360-alpprod-us-east-credentials has encryption enabled
+✅ org-echo360-alpprod-us-east-device-logs has encryption enabled
+✅ org-echo360-alpprod-us-east-device-upload has encryption enabled
+✅ org-echo360-alpprod-us-east-download has encryption enabled
+✅ org-echo360-alpprod-us-east-filepicker has encryption enabled
+✅ org-echo360-alpprod-us-east-folder has encryption enabled
+✅ org-echo360-alpprod-us-east-inventory has encryption enabled
+✅ org-echo360-alpprod-us-east-logs has encryption enabled
+✅ org-echo360-alpprod-us-east-migration-data has encryption enabled
+✅ org-echo360-alpprod-us-east-monitor has encryption enabled
+✅ org-echo360-alpprod-us-east-monitoring has encryption enabled
+✅ org-echo360-alpprod-us-east-mp has encryption enabled
+✅ org-echo360-alpprod-us-east-stream has encryption enabled
+✅ org-echo360-alpprod-us-east-upload has encryption enabled
+✅ org-echo360-alpprod-us-east-upload-failed has encryption enabled
+✅ org-echo360-alpprod-us-east-upload-temp has encryption enabled
+✅ org-echo360-alpprod-us-east-video has encryption enabled
+✅ org-echo360-alpprod-video has encryption enabled
+✅ org-echo360-app has encryption enabled
+✅ org-echo360-caption has encryption enabled
+✅ org-echo360-cur-athena has encryption enabled
+✅ org-echo360-datadog-logs has encryption enabled
+✅ org-echo360-elb-logs has encryption enabled
+✅ org-echo360-help has encryption enabled
+✅ org-echo360-lambda has encryption enabled
+✅ org-echo360-prod-us-east-1-data-exports has encryption enabled
+✅ org-echo360-prod-us-east-1-data-imports has encryption enabled
+✅ s3-mr-temp has encryption enabled
+✅ security-audit-report-findings has encryption enabled
+❌ terraform-state-echo360-prod-ap-southeast-2 has NO encryption enabled
+
+
+====================================
+Running check: checks/s3-public-access.sh
+Category: S3
+====================================
+[S3] Checking for publicly accessible buckets...
+✅ Bucket athena-test-echo360 is private
+✅ Bucket athena-test-echo360-ap-southeast-2 is private
+✅ Bucket athena-test-echo360-ca-central-1 is private
+✅ Bucket athena-test-echo360-eu-west-1 is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-access-logs is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-benchmark is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-branding is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-branding-temp is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-capture-client-software is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-conversion is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-credentials is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-device-logs is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-device-upload is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-download is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-filepicker is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-inventory is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-migration-data is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-monitor is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-mp is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-stream is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-upload is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-upload-failed is private
+✅ Bucket au-org-echo360-alpprod-ap-southeast-upload-temp is private
+✅ Bucket au-org-echo360-alpprod-terraform is private
+✅ Bucket au-org-echo360-app is private
+✅ Bucket au-org-echo360-caption is private
+✅ Bucket au-org-echo360-cur-athena is private
+✅ Bucket au-org-echo360-datadog-logs is private
+✅ Bucket au-org-echo360-elb-logs is private
+✅ Bucket au-org-echo360-lambda is private
+✅ Bucket au-org-echo360-prod-ap-southeast-2-data-exports is private
+✅ Bucket au-org-echo360-prod-ap-southeast-2-data-imports is private
+✅ Bucket aws-athena-query-results-899370402831-ap-southeast-2 is private
+✅ Bucket aws-athena-query-results-899370402831-ca-central-1 is private
+✅ Bucket aws-athena-query-results-899370402831-eu is private
+✅ Bucket aws-athena-query-results-899370402831-eu-west-1 is private
+✅ Bucket aws-athena-query-results-899370402831-us-east-1 is private
+✅ Bucket aws-cloudtrail-logs-899370402831-2ec8a49a is private
+✅ Bucket aws-logs-899370402831-ap-southeast-2 is private
+✅ Bucket aws-logs-899370402831-ca-central-1 is private
+✅ Bucket aws-logs-899370402831-eu-west-1 is private
+✅ Bucket aws-logs-899370402831-us-east-1 is private
+✅ Bucket ca-echo360-alp-prd-assets is private
+✅ Bucket ca-echo360-alp-prd-configs is private
+✅ Bucket ca-echo360-alp-prd-images is private
+✅ Bucket ca-echo360-alpprod-ca-central-access-logs is private
+✅ Bucket ca-echo360-alpprod-ca-central-branding is private
+✅ Bucket ca-echo360-alpprod-ca-central-branding-temp is private
+✅ Bucket ca-echo360-alpprod-ca-central-capture-client-software is private
+✅ Bucket ca-echo360-alpprod-ca-central-conversion is private
+✅ Bucket ca-echo360-alpprod-ca-central-credentials is private
+✅ Bucket ca-echo360-alpprod-ca-central-device-logs is private
+✅ Bucket ca-echo360-alpprod-ca-central-device-upload is private
+✅ Bucket ca-echo360-alpprod-ca-central-download is private
+✅ Bucket ca-echo360-alpprod-ca-central-ecs-config is private
+✅ Bucket ca-echo360-alpprod-ca-central-filepicker is private
+✅ Bucket ca-echo360-alpprod-ca-central-inventory is private
+✅ Bucket ca-echo360-alpprod-ca-central-migration-data is private
+✅ Bucket ca-echo360-alpprod-ca-central-migration-fix-backup is private
+✅ Bucket ca-echo360-alpprod-ca-central-monitor is private
+✅ Bucket ca-echo360-alpprod-ca-central-mp is private
+✅ Bucket ca-echo360-alpprod-ca-central-stream is private
+✅ Bucket ca-echo360-alpprod-ca-central-upload is private
+✅ Bucket ca-echo360-alpprod-ca-central-upload-failed is private
+✅ Bucket ca-echo360-alpprod-ca-central-upload-temp is private
+✅ Bucket ca-echo360-alpprod-terraform is private
+✅ Bucket ca-echo360-app is private
+✅ Bucket ca-echo360-caption is private
+✅ Bucket ca-echo360-cur-athena is private
+✅ Bucket ca-echo360-datadog-logs is private
+✅ Bucket ca-echo360-elb-logs is private
+✅ Bucket ca-echo360-lambda is private
+✅ Bucket ca-echo360-prod-ca-central-1-data-exports is private
+✅ Bucket ca-echo360-prod-ca-central-1-data-imports is private
+✅ Bucket ca-org-echo360-elb-logs is private
+✅ Bucket ckelly-temp is private
+✅ Bucket colin-cf-geoip is private
+✅ Bucket columbia-snowball-migration is private
+✅ Bucket config-bucket-899370402831 is private
+✅ Bucket cw-syn-results-899370402831-ap-southeast-2 is private
+✅ Bucket cw-syn-results-899370402831-ca-central-1 is private
+✅ Bucket cw-syn-results-899370402831-eu-west-1 is private
+✅ Bucket cw-syn-results-899370402831-us-east-1 is private
+✅ Bucket e360-alpprod-syslog is private
+✅ Bucket echo360-docker-images is private
+✅ Bucket echo360-prod-ap-southeast-2-ddmetrics-deadletter is private
+✅ Bucket echo360-prod-ap-southeast-2-logs is private
+✅ Bucket echo360-prod-ap-southeast-2-raw-analytics is private
+✅ Bucket echo360-prod-ap-southeast-2-terraform-state is private
+✅ Bucket echo360-prod-ca-central-1-ddmetrics-deadletter is private
+✅ Bucket echo360-prod-ca-central-1-logs is private
+✅ Bucket echo360-prod-ca-central-1-raw-analytics is private
+✅ Bucket echo360-prod-ca-central-1-terraform-state is private
+✅ Bucket echo360-prod-eu-west-1-ddmetrics-deadletter is private
+✅ Bucket echo360-prod-eu-west-1-logs is private
+✅ Bucket echo360-prod-eu-west-1-raw-analytics is private
+✅ Bucket echo360-prod-eu-west-1-terraform-state is private
+✅ Bucket echo360-prod-us-east-1-ddmetrics-deadletter is private
+✅ Bucket echo360-prod-us-east-1-logs is private
+✅ Bucket echo360-prod-us-east-1-raw-analytics is private
+✅ Bucket echo360-prod-us-east-1-terraform-state is private
+✅ Bucket echo360prod-datastats is private
+✅ Bucket elasticbeanstalk-us-east-1-899370402831 is private
+✅ Bucket emr-scripts-prod.ap-southeast-2 is private
+✅ Bucket emr-scripts-prod.ca-central-1 is private
+✅ Bucket emr-scripts-prod.eu-west-1 is private
+✅ Bucket emr-scripts-prod.us-east-1 is private
+✅ Bucket engagehelp.echo360.org is private
+✅ Bucket eubucketmonitoring is private
+✅ Bucket help.echo360.org is private
+✅ Bucket hostedops-resources is private
+✅ Bucket hostedops-resources-ca-central-1 is private
+✅ Bucket org-echo360-alp-prd-logs is private
+✅ Bucket org-echo360-alpprod-ap-southeast-emr is private
+✅ Bucket org-echo360-alpprod-ap-southeast-folder is private
+✅ Bucket org-echo360-alpprod-ca-central-folder is private
+✅ Bucket org-echo360-alpprod-cloudtrail is private
+✅ Bucket org-echo360-alpprod-eu-west-folder is private
+✅ Bucket org-echo360-alpprod-terraform is private
+✅ Bucket org-echo360-alpprod-us-east-access-logs is private
+✅ Bucket org-echo360-alpprod-us-east-branding is private
+✅ Bucket org-echo360-alpprod-us-east-branding-temp is private
+✅ Bucket org-echo360-alpprod-us-east-capture-client-software is private
+✅ Bucket org-echo360-alpprod-us-east-conversion is private
+✅ Bucket org-echo360-alpprod-us-east-credentials is private
+✅ Bucket org-echo360-alpprod-us-east-device-logs is private
+✅ Bucket org-echo360-alpprod-us-east-device-upload is private
+✅ Bucket org-echo360-alpprod-us-east-download is private
+✅ Bucket org-echo360-alpprod-us-east-filepicker is private
+✅ Bucket org-echo360-alpprod-us-east-folder is private
+✅ Bucket org-echo360-alpprod-us-east-inventory is private
+✅ Bucket org-echo360-alpprod-us-east-logs is private
+✅ Bucket org-echo360-alpprod-us-east-migration-data is private
+✅ Bucket org-echo360-alpprod-us-east-monitor is private
+✅ Bucket org-echo360-alpprod-us-east-monitoring is private
+✅ Bucket org-echo360-alpprod-us-east-mp is private
+✅ Bucket org-echo360-alpprod-us-east-stream is private
+✅ Bucket org-echo360-alpprod-us-east-upload is private
+✅ Bucket org-echo360-alpprod-us-east-upload-failed is private
+✅ Bucket org-echo360-alpprod-us-east-upload-temp is private
+✅ Bucket org-echo360-alpprod-us-east-video is private
+✅ Bucket org-echo360-alpprod-video is private
+✅ Bucket org-echo360-app is private
+✅ Bucket org-echo360-caption is private
+✅ Bucket org-echo360-cur-athena is private
+✅ Bucket org-echo360-datadog-logs is private
+✅ Bucket org-echo360-elb-logs is private
+✅ Bucket org-echo360-help is private
+✅ Bucket org-echo360-lambda is private
+✅ Bucket org-echo360-prod-us-east-1-data-exports is private
+✅ Bucket org-echo360-prod-us-east-1-data-imports is private
+✅ Bucket s3-mr-temp is private
+✅ Bucket security-audit-report-findings is private
+✅ Bucket terraform-state-echo360-prod-ap-southeast-2 is private
+✅ Bucket terraform-state-echo360-prod-ca-central-1 is private
+✅ Bucket terraform-state-echo360-prod-eu-west-1 is private
+✅ Bucket terraform-state-echo360-prod-us-east-1 is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-access-logs is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-branding is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-branding-temp is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-capture-client-software is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-conversion is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-credentials is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-device-logs is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-device-upload is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-download is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-filepicker is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-inventory is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-migration-data is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-monitor is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-mp is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-stream is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-upload is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-upload-failed is private
+✅ Bucket uk-org-echo360-alpprod-eu-west-upload-temp is private
+✅ Bucket uk-org-echo360-alpprod-terraform is private
+✅ Bucket uk-org-echo360-app is private
+✅ Bucket uk-org-echo360-caption is private
+✅ Bucket uk-org-echo360-cur-athena is private
+✅ Bucket uk-org-echo360-datadog-logs is private
+✅ Bucket uk-org-echo360-elb-logs is private
+✅ Bucket uk-org-echo360-lambda is private
+✅ Bucket uk-org-echo360-prod-eu-west-1-data-exports is private
+✅ Bucket uk-org-echo360-prod-eu-west-1-data-imports is private
+✅ Bucket uq-migration-au-org-temp is private
+
+
+🔍 Scan complete. 18 checks run.
+[0;32m✅ 10 Passed[0m, [0;31m❌ 8 Failed[0m
+🔧 Timestamp: 2025-04-25 16:32:44 UTC
+
+📊 Failures by Category:
+  • Cloudtrail: 0 / 2 failed
+  • ELBv2: 0 / 2 failed
+  • EC2: 0 / 2 failed
+  • IAM: 0 / 4 failed
+  • RDS: 0 / 3 failed
+  • GuardDuty: 0 / 1 failed
+  • S3: 0 / 3 failed
+  • ELB: 0 / 1 failed

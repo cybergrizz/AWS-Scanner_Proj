@@ -1,0 +1,367 @@
+
+====================================
+Running check: checks/cloudtrail-enabled.sh
+Category: Cloudtrail
+====================================
+[CloudTrail] Checking if CloudTrail is enabled in this region...
+❌ No CloudTrails found in this region
+
+
+====================================
+Running check: checks/cloudtrail-log-encryption.sh
+Category: Cloudtrail
+====================================
+[CloudTrail] Checking if logs are encrypted with KMS...
+ℹ️  No CloudTrails found
+
+
+====================================
+Running check: checks/ec2-port22-open.sh
+Category: EC2
+====================================
+[EC2] Checking for Security Groups with port 22 open...
+✅ sg-0c704c6f18d0e50b3 does NOT expose port 22 publicly
+✅ sg-005b8ec2d2946406c does NOT expose port 22 publicly
+✅ sg-0eac0a79b376fdec1 does NOT expose port 22 publicly
+✅ sg-03a124aa74d2ab24e does NOT expose port 22 publicly
+✅ sg-0dbc5933596b8c538 does NOT expose port 22 publicly
+✅ sg-0c874fddbe7b5d90e does NOT expose port 22 publicly
+✅ sg-0306de3ce8fbafda0 does NOT expose port 22 publicly
+✅ sg-0c9325f6d99fc82dc does NOT expose port 22 publicly
+✅ sg-0d8956afee02805fc does NOT expose port 22 publicly
+❌ sg-03f472f72009e4c5c has port 22 open to the world
+❌ sg-03d805073e4d82fb7 has port 22 open to the world
+✅ sg-d14d90be does NOT expose port 22 publicly
+✅ sg-0648ca82e4bf1a5d4 does NOT expose port 22 publicly
+✅ sg-0d341c92ef4f8d03b does NOT expose port 22 publicly
+❌ sg-0768ccf5ce2a0d7fd has port 22 open to the world
+✅ sg-0b7778e1991b3bd91 does NOT expose port 22 publicly
+✅ sg-0449c4f7c8fb57be3 does NOT expose port 22 publicly
+✅ sg-72ae7b16 does NOT expose port 22 publicly
+✅ sg-020d803c0a2bf2e45 does NOT expose port 22 publicly
+❌ sg-af0d31ca has port 22 open to the world
+❌ sg-0b484884591ecb02d has port 22 open to the world
+❌ sg-2a528f45 has port 22 open to the world
+❌ sg-0db8ea08123da839a has port 22 open to the world
+
+
+====================================
+Running check: checks/ec2-port3389-open.sh
+Category: EC2
+====================================
+[EC2] Checking for Security Groups with port 3389 (RDP) open...
+✅ SG sg-0c704c6f18d0e50b3 is locked down for RDP
+✅ SG sg-005b8ec2d2946406c is locked down for RDP
+✅ SG sg-0eac0a79b376fdec1 is locked down for RDP
+✅ SG sg-03a124aa74d2ab24e is locked down for RDP
+✅ SG sg-0dbc5933596b8c538 is locked down for RDP
+✅ SG sg-0c874fddbe7b5d90e is locked down for RDP
+✅ SG sg-0306de3ce8fbafda0 is locked down for RDP
+✅ SG sg-0c9325f6d99fc82dc is locked down for RDP
+✅ SG sg-0d8956afee02805fc is locked down for RDP
+✅ SG sg-03f472f72009e4c5c is locked down for RDP
+✅ SG sg-03d805073e4d82fb7 is locked down for RDP
+✅ SG sg-d14d90be is locked down for RDP
+✅ SG sg-0648ca82e4bf1a5d4 is locked down for RDP
+✅ SG sg-0d341c92ef4f8d03b is locked down for RDP
+✅ SG sg-0768ccf5ce2a0d7fd is locked down for RDP
+✅ SG sg-0b7778e1991b3bd91 is locked down for RDP
+✅ SG sg-0449c4f7c8fb57be3 is locked down for RDP
+✅ SG sg-72ae7b16 is locked down for RDP
+✅ SG sg-020d803c0a2bf2e45 is locked down for RDP
+✅ SG sg-af0d31ca is locked down for RDP
+✅ SG sg-0b484884591ecb02d is locked down for RDP
+✅ SG sg-2a528f45 is locked down for RDP
+✅ SG sg-0db8ea08123da839a is locked down for RDP
+
+
+====================================
+Running check: checks/elb-logging.sh
+Category: ELB
+====================================
+[ELB] Checking for ELBs without access logging enabled...
+
+
+====================================
+Running check: checks/elbv2-https.sh
+Category: ELBv2
+====================================
+[ELBv2] Checking for HTTP-only listeners (unencrypted traffic)...
+
+
+====================================
+Running check: checks/elbv2-tls-policy.sh
+Category: ELBv2
+====================================
+[ELBv2] Checking TLS policy strength on HTTPS listeners...
+
+
+====================================
+Running check: checks/guardduty-enabled.sh
+Category: GuardDuty
+====================================
+[GuardDuty] Checking if GuardDuty is enabled...
+✅ GuardDuty is enabled (Detector ID: 42c691f50569dab5c51b9b6dcc27be12)
+
+
+====================================
+Running check: checks/iam-inline-policies.sh
+Category: IAM
+====================================
+[IAM] Checking for IAM entities with inline policies...
+❌ User cogjenkins has inline policies: ec2-all-all	Jenkins-ECS-Deployment	rds-describe
+❌ User filestack-uploader has inline policies: filestack-s3-access
+❌ User Jenkins has inline policies: ec2-all-all	Jenkins-ECS-Deployment	rds-DescribeInstances
+❌ User jenkins-ses has inline policies: AmazonSesSendingAccess
+❌ Role alp-iam-role has inline policies: policygen-alp-iam-role-201404091311
+❌ Role AmazonGrafanaOrgMemberRole-bggaR7Qcg has inline policies: AmazonGrafanaElasticsearchPolicy	AmazonGrafanaPrometheusPolicy
+❌ Role AmazonGrafanaOrgMemberRole-pM6tHaOL3 has inline policies: AmazonGrafanaElasticsearchPolicy	AmazonGrafanaPrometheusPolicy
+❌ Role AmazonSSMAutomationRole has inline policies: policygen-AmazonSSMAutomationRole-201706131559
+❌ Role aws-codedeploy has inline policies: CodeDeployAccess
+❌ Role aws-opsworks-ec2-role has inline policies: AdministratorAccess-aws-opsworks-ec2-role-201409151137
+❌ Role aws-opsworks-service-role has inline policies: aws-opsworks-service-policy
+❌ Role AWS-QuickSetup-StackSet-Local-AdministrationRole has inline policies: AssumeRole-AWS-QuickSetup-StackSet-Local-ExecutionRole
+❌ Role AWSCloudFormationStackSetExecutionRole has inline policies: AssumeRole-AWSCloudFormationStackSetExecutionRole
+❌ Role AWSReservedSSO_AdministratorAccess_d73f88a1faa78e3d has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Business-Development_17c4865998b07df7 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_CaptureTeam_a57a77574dd8c25a has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_CorporateIT_b94e2efb11c66eb6 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_EchoVideo_Dev_Admin_99579f85c1f67649 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Engineering_92ec9aa374168aa9 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Finance_fea2b4f215901ac4 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Read-only_8d9247b1e3eef37e has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_SRETeam_5dfa0b0f58147bfb has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_SRE_QA_Admin_302e28e81d00bea8 has inline policies: AwsSSOInlinePolicy
+❌ Role AWSReservedSSO_Support_1983b4f8d8269aaa has inline policies: AwsSSOInlinePolicy
+❌ Role bjl has inline policies: AdministratorAccess-bjl-201310110944
+❌ Role build has inline policies: PowerUserAccess-build-201302181358
+❌ Role claudia-test-executor has inline policies: log-writer
+❌ Role CloudTrail_CloudWatchLogs_Role has inline policies: oneClick_CloudTrail_CloudWatchLogs_Role_1534260963067
+❌ Role DataPipelineDefaultResourceRole has inline policies: DataPipelineDefaultResourceRole_Policy
+❌ Role DataPipelineDefaultRole has inline policies: DataPipelineDefaultRole_Policy
+❌ Role devs has inline policies: AdministratorAccess-devs-201302210944
+❌ Role ecsInstanceRole has inline policies: oneClick_ecsInstanceRole_1432752204416	oneClick_ecsInstanceRole_1432797438874	oneClick_ecsInstanceRole_1432797970043	oneClick_ecsInstanceRole_1432798892903	oneClick_ecsInstanceRole_1432809798365	oneClick_ecsInstanceRole_1432824115647	oneClick_ecsInstanceRole_1432829797190	oneClick_ecsInstanceRole_1432835138506	oneClick_ecsInstanceRole_1432843181765	oneClick_ecsInstanceRole_1433871326199	policygen-ecsInstanceRole-201506101200
+❌ Role ecsServiceRole has inline policies: oneClick_ecsServiceRole_1432747147846	oneClick_ecsServiceRole_1432798892905	oneClick_ecsServiceRole_1432843181769	oneClick_ecsServiceRole_1432927299197	oneClick_ecsServiceRole_1433516372140	oneClick_ecsServiceRole_1433869603934	oneClick_ecsServiceRole_1433871326205	oneClick_ecsServiceRole_1433948487572	oneClick_ecsServiceRole_1434401744498
+❌ Role eks-quickstart-CleanupLambdas has inline policies: LambdaRole
+❌ Role eks-quickstart-CleanupLoadBalancers has inline policies: LambdaRole
+❌ Role eks-quickstart-CleanupSecurityGroupDependencies has inline policies: LambdaRole
+❌ Role eks-quickstart-CloudFormationVPCRoleCreation has inline policies: attach-role-policy	create-role
+❌ Role eks-quickstart-ControlPlane has inline policies: ec2-describe-policy
+❌ Role eks-quickstart-CopyZips has inline policies: eks-quickstart-lambda-zip-bucket-access-us-east-2	lambda-zips-s3-read
+❌ Role eks-quickstart-CreateVpcRole has inline policies: create-role
+❌ Role eks-quickstart-DeleteBucketContents has inline policies: eks-quickstart-delete-bucket-contents-us-east-2
+❌ Role eks-quickstart-FargateProfile has inline policies: ResourceTypePolicy
+❌ Role eks-quickstart-GetCallerArn has inline policies: LambdaRole
+❌ Role eks-quickstart-ManagedNodeInstance has inline policies: cfn-signal
+❌ Role eks-quickstart-NodeSG has inline policies: DescribeNodeGroups
+❌ Role eks-quickstart-QuickStartParameterResolver has inline policies: param-resolver
+❌ Role eks-quickstart-RegisterType has inline policies: ResourceTypePolicy
+❌ Role eks-quickstart-UnmanagedNodeInstance has inline policies: cfn-signal
+❌ Role Elastic_Transcoder_Default_Role has inline policies: ets-console-generated-policy
+❌ Role EMR_DefaultRole has inline policies: emr_default	hostedops-resources-dev-policy
+❌ Role EMR_EC2_DefaultRole has inline policies: ec2_default	hostedops-resources-dev-policy
+❌ Role fgw has inline policies: AdministratorAccess-fgw-201302191353	AmazonDynamoDBFullAccess-fgw-201303121628	sqs_echo360cloud-net
+❌ Role FilePicker has inline policies: policygen-FilePicker-201407171355
+❌ Role firehose_delivery_role has inline policies: oneClick_firehose_delivery_role_1565117512296
+❌ Role frt has inline policies: AdministratorAccess-frt-201306190924	AmazonDynamoDBFullAccess-frt-201306190925
+❌ Role hbr has inline policies: AdministratorAccess-hbr-201304031028
+❌ Role ids has inline policies: AdministratorAccess-ids-201303191216	AmazonDynamoDBFullAccess-ids-201303191216
+❌ Role inspector has inline policies: oneClick_inspector_1496670632045
+❌ Role lambda_exec_role has inline policies: oneClick_lambda_exec_role_1420473418511
+❌ Role lambda_invoke_role has inline policies: oneClick_lambda_invoke_role_1420594496894
+❌ Role lambda_s3_exec_role has inline policies: oneClick_lambda_s3_exec_role_1443805438475
+❌ Role lct has inline policies: AdministratorAccess-lct-201302271535
+❌ Role lte has inline policies: AdministratorAccess-lte-201303211021
+❌ Role ltiadmin has inline policies: AdministratorAccess-ltiadmin-201311081438
+❌ Role ltp has inline policies: ltp
+❌ Role lts has inline policies: AdministratorAccess-lts-201303211021	AmazonRoute53FullAccess-lts-201304121156
+❌ Role ltv has inline policies: AdministratorAccess-ltv-201303211003	AmazonS3FullAccess-ltv-201303211006
+❌ Role MediaService has inline policies: PowerUserAccess-MediaService-201402141607
+❌ Role MyUserS3AccessRole has inline policies: AllowSFTPBucketAccess
+❌ Role Operations has inline policies: AdministratorAccess-Operations-201301250859
+❌ Role ops has inline policies: AdministratorAccess-ops-201301311454	AmazonS3FullAccess-ops-201304011010
+❌ Role packer-jenkins-role has inline policies: dev-echo360-test-assets_s3_access	reas-access-hosted-resources-dev
+❌ Role PermissionBoundaryTesting has inline policies: AWSRevokeOlderSessions
+❌ Role phx has inline policies: AdministratorAccess-phx-201304160950
+❌ Role red has inline policies: red
+❌ Role VPC-LPS has inline policies: AdminAccess	AmazonS3FullAccess
+❌ Role VulnScanReadOnly has inline policies: VulnScanReadOnlyPolicy
+❌ Role workspaces_DefaultRole has inline policies: SkyLightSelfServiceAccess	SkyLightServiceAccess
+❌ Role zkr has inline policies: ReadOnlyAccess-zkr-201302141051	sqs_echo360cloud-net
+❌ Group Admins has inline policies: AdministratorAccess-Admins-201301171442
+❌ Group BuildAgentManagers has inline policies: BuildAgentManagement
+❌ Group BuildArtifactCreators has inline policies: BuildArtifactCreation
+❌ Group Deployers has inline policies: PowerUserAccess-Deployers-201302051812
+❌ Group dynamodb_admins has inline policies: policygen-dynamodbadmins-201407161001
+❌ Group MediaProcessors has inline policies: policygen-MediaProcessors-201402271201
+❌ Group ReadOnly has inline policies: ReadOnlyAccess-ReadOnly-201212241127
+
+
+====================================
+Running check: checks/iam-no-mfa.sh
+Category: IAM
+====================================
+[IAM] Checking for users without MFA...
+❌ cogjenkins has NO MFA enabled
+❌ filestack-uploader has NO MFA enabled
+❌ Jenkins has NO MFA enabled
+❌ jenkins-ses has NO MFA enabled
+❌ zabbix has NO MFA enabled
+
+
+====================================
+Running check: checks/iam-old-access-keys.sh
+Category: IAM
+====================================
+[IAM] Checking for access keys older than 90 days...
+⚠️  Could not parse timestamp for AKIAJ6ZG2WNPNRGKLICQ
+⚠️  Could not parse timestamp for AKIAYDUEDAXLZME5ZU4J
+⚠️  Could not parse timestamp for AKIAYDUEDAXLWLEBSWOZ
+⚠️  Could not parse timestamp for AKIAI6EQF6NQCMIPEPGQ
+⚠️  Could not parse timestamp for AKIAIVGVNTYKE2AEENGQ
+⚠️  Could not parse timestamp for AKIAYDUEDAXL2NCQPRVI
+
+
+====================================
+Running check: checks/iam-root-mfa.sh
+Category: IAM
+====================================
+[IAM] Checking if root account has MFA enabled...
+✅ Root account has MFA enabled
+
+
+====================================
+Running check: checks/rds-backups.sh
+Category: RDS
+====================================
+[RDS] Checking for RDS databases without automated backups...
+
+
+====================================
+Running check: checks/rds-encryption.sh
+Category: RDS
+====================================
+[RDS] Checking for unencrypted RDS databases...
+
+
+====================================
+Running check: checks/rds-public.sh
+Category: RDS
+====================================
+[RDS] Checking for publicly accessible RDS databases...
+
+
+====================================
+Running check: checks/s3-block-public-access.sh
+Category: S3
+====================================
+[S3] Checking for buckets missing Block Public Access settings...
+❌ ansible-terraform-state does NOT have Block Public Access settings configured
+
+
+====================================
+Running check: checks/s3-bucket-encryption.sh
+Category: S3
+====================================
+[S3] Checking for buckets without default encryption...
+✅ ansible-terraform-state has encryption enabled
+✅ aws-logs-557549028823-ca-central-1 has encryption enabled
+✅ aws-logs-557549028823-us-west-2 has encryption enabled
+✅ aws-rancher2 has encryption enabled
+✅ cf-templates-urfda4n9qpg1-us-east-2 has encryption enabled
+✅ colin-test-dynamodb-ca-central-1 has encryption enabled
+✅ dev-echo360-csv-file-uploads has encryption enabled
+✅ dev-echo360-terraform-state has encryption enabled
+✅ dev-echo360-test-assets has encryption enabled
+✅ echo360-alpcapture-test has encryption enabled
+✅ echo360-alpcapture-test-ireland has encryption enabled
+✅ echo360-alpcapture-test-sydney has encryption enabled
+✅ echo360-builder has encryption enabled
+✅ echo360-dev-raw-analytics has encryption enabled
+✅ echo360-dev-test-download has encryption enabled
+✅ echo360-dev-test-poster has encryption enabled
+✅ echo360-dev-test-upload has encryption enabled
+✅ echo360-dev-test-upload-failed has encryption enabled
+✅ echo360-dev-us-east-1-logs has encryption enabled
+✅ echo360-dev-us-east-1-support-transcribe-testing has encryption enabled
+✅ echo360-dev-us-west-2-logs has encryption enabled
+❌ echo360-jz-test-bucket has NO encryption enabled
+
+
+====================================
+Running check: checks/s3-public-access.sh
+Category: S3
+====================================
+[S3] Checking for publicly accessible buckets...
+✅ Bucket ansible-terraform-state is private
+✅ Bucket aws-logs-557549028823-ca-central-1 is private
+✅ Bucket aws-logs-557549028823-us-west-2 is private
+✅ Bucket aws-rancher2 is private
+✅ Bucket cf-templates-urfda4n9qpg1-us-east-2 is private
+✅ Bucket colin-test-dynamodb-ca-central-1 is private
+✅ Bucket dev-echo360-csv-file-uploads is private
+✅ Bucket dev-echo360-terraform-state is private
+✅ Bucket dev-echo360-test-assets is private
+✅ Bucket echo360-alpcapture-test is private
+✅ Bucket echo360-alpcapture-test-ireland is private
+✅ Bucket echo360-alpcapture-test-sydney is private
+✅ Bucket echo360-builder is private
+✅ Bucket echo360-dev-raw-analytics is private
+✅ Bucket echo360-dev-test-download is private
+✅ Bucket echo360-dev-test-poster is private
+✅ Bucket echo360-dev-test-upload is private
+✅ Bucket echo360-dev-test-upload-failed is private
+✅ Bucket echo360-dev-us-east-1-logs is private
+✅ Bucket echo360-dev-us-east-1-support-transcribe-testing is private
+✅ Bucket echo360-dev-us-west-2-logs is private
+✅ Bucket echo360-jz-test-bucket is private
+✅ Bucket echo360-live-event-stack-cf is private
+✅ Bucket echo360-live-event-stack-cf-logs is private
+✅ Bucket echo360-live-event-stack-customer-import is private
+✅ Bucket echo360-live-events is private
+✅ Bucket echo360-live-events-broadcast is private
+✅ Bucket echo360-skunkworks-demo is private
+✅ Bucket echo360-skunkworks-raw is private
+✅ Bucket echo360-skunkworks-video-demo is private
+✅ Bucket echo360-skunkworks-video-processed is private
+✅ Bucket echo360-skunkworks-video-raw is private
+✅ Bucket echo360-skunkworks-video-thumbs is private
+✅ Bucket eks-quickstart-lambdazips-us-east-2-557549028823 is private
+✅ Bucket elasticbeanstalk-us-east-1-557549028823 is private
+✅ Bucket hostedops-resources-dev is private
+✅ Bucket int-echo360-jenkins-backup is private
+✅ Bucket jenkins-build-client-thirdparty-sources is private
+✅ Bucket org-echo360-alpdev-access-logs is private
+✅ Bucket org-echo360-alpdev-cloudtrail is private
+✅ Bucket org-echo360-alpdev-content is private
+✅ Bucket org-echo360-alpdev-data-imports is private
+✅ Bucket org-echo360-alpdev-download is private
+✅ Bucket org-echo360-alpdev-emr is private
+✅ Bucket org-echo360-alpdev-filepicker is private
+✅ Bucket org-echo360-alpdev-folders is private
+✅ Bucket org-echo360-alpdev-logs is private
+✅ Bucket org-echo360-alpdev-migration-data is private
+✅ Bucket org-echo360-alpdev-monitoring is private
+✅ Bucket org-echo360-alpdev-stream is private
+✅ Bucket org-echo360-alpdev-upload is private
+✅ Bucket org-echo360-alpdev-upload-failed is private
+✅ Bucket org-echo360-alpqa-temp-test is private
+✅ Bucket sre-cloud-custodian is private
+✅ Bucket sre-versioner-test is private
+✅ Bucket terraform-state-echo360-dev-us-east-1 is private
+✅ Bucket terraform-state-echo360-dev-us-west-2 is private
+
+
+🔍 Scan complete. 18 checks run.
+[0;32m✅ 10 Passed[0m, [0;31m❌ 8 Failed[0m
+🔧 Timestamp: 2025-04-25 16:36:12 UTC
+
+📊 Failures by Category:
+  • Cloudtrail: 0 / 2 failed
+  • ELBv2: 0 / 2 failed
+  • EC2: 0 / 2 failed
+  • IAM: 0 / 4 failed
+  • RDS: 0 / 3 failed
+  • GuardDuty: 0 / 1 failed
+  • S3: 0 / 3 failed
+  • ELB: 0 / 1 failed
